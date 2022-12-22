@@ -1,0 +1,40 @@
+FILTROS	
+399239	Kit Fan filter ink system IP55 (5 externo e 1 interno)
+399238	Kit Fan filter ink system IP65 (5 externo e 1 interno)
+
+SISTEMA DE TINTA	
+399072	Kit de Tubos VJ 1510
+399171	Kit Bomba de Vácuo VJ 1510
+399076	Kit da Bomba de Tinta VJ 1510
+399073	Kit Valvula Septum e Agulhas VJ 1510
+SP399246	Cartucho Especial p/ Esvaziar Nucleo VJ 1510
+399072	Kit de Tuberias y Mangueras VJ 1000
+399336	Kit de Gaxetas e O'rings VJ1510
+
+CABEÇOTE	
+399180	Modulo de Impressao canhão 70 micron
+399422	Modulo de Impressão canhão 60 micron  (opcional)
+399181	Modulo de Valvulas / Aquecedor
+SP399404	Capa metalica do cabecote 
+223266	Chave de Contato Magnética 
+399361	Parafuso do Lid do Cabecote (modelo novo)
+223277	Parafuso do Lid do Cabecote (modelo antigo)
+234907	mola do parafuso capa cabeçote
+
+PLACAS ELETRONICAS	
+SP392433	Placa Principal CSB VJ 1530
+219041	Chave de Força VJ1510
+399074	Kit da Placa de Interface Sistema de Tinta VJ 1510
+399077	Fonte PSU VJ 1510 com kit de partes
+399078	Placa PIB VJ 1510 com kit de partes
+399079	Ventilador da Eletronica com kit de partes
+399080	Ventilador do sistema de tinta com kit de partes
+399091	Display LCD VJ 1510 com kit de partes
+399081	Módulo EHT (HV)
+399101	Painel Frontal com Teclado Europeu Interface Excel
+399117	Painel Frontal com Teclado Europeu Interface 400
+SP500096	Placa PCB#3 reversao de mensagem
+
+
+
+

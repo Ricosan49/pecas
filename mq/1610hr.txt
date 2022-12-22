@@ -1,0 +1,36 @@
+FILTROS	
+399238	Kit Filtro de Aire Sistema de Tinta IP65 (5 externo y 1 interno)
+
+SISTEMA DE TINTA	
+399072	Kit de Tubos VJ 1000
+399171	Kit Bomba de Vácio VJ 1000
+399076	Kit da Bomba de Tinta VJ 1000
+399073	Kit Valvula Septum y Agujas VJ 1000
+SP399246	Cartucho Especial p/ vaciar Nucleo VJ 1000
+399072	Kit de Tuberias y Mangueras VJ 1000
+399336	Kit de Empaques y O'rings VJ1000
+
+CABEZAL	
+397353	Modulo de Impresion c/ boquilla 40 micron 1620HR
+399181	Modulo de Valvulas / Calientador
+SP395805	Capuchon del cabezal 1620 UHS
+223266	llave de Contato Magnética 
+223277	Tornillo del capuchon del Cabezal
+399508	Cabezal c/ Umbilical 3M VJ 1610
+
+TARJETAS ELETRONICAS	
+SP392125UHS	Tarjeta Principal CSB VJ 1620 UHS
+SP392436	Tarjeta Principal CSB 5  VJ 1620 UHS / HR
+SP219041	llave de Fuerza VJ 1000
+399074	Kit de Tarjeta de Interfaz Sistema de Tinta VJ 1510
+399077	Fuente de Poder PSU VJ 1000 com kit de partes
+399473	Tarjeta PIB VJ 1620 com kit de partes
+399079	Ventilador del Sistema Electronico
+399080	Ventilador del Sistema de Tinta
+399091	Display LCD VJ 1000 com kit de partes
+399081	Módulo EHT (HV)
+399101	Painel Frontal con Teclado Europeu Interface Excel
+399117	Painel Frontal com Teclado Europeu Interface 400
+399458	Bomba de Aire positivo VJ 1620 - kit completo
+
+

@@ -1,0 +1,38 @@
+FILTROS	
+399238	Kit Filtro de Ar Sistema de Tinta IP65 (5 externo e 1 interno)
+
+SISTEMA DE TINTA	
+399072	Kit de Tubos VJ 1510
+399171	Kit Bomba de Vácuo VJ 1510
+399076	Kit da Bomba de Tinta VJ 1510
+399073	Kit Valvula Septum e Agulhas VJ 1510
+SP399246	Cartucho Especial p/ drenar Nucleo VJ 1510
+399072	Kit de Tuberias e Mangueras VJ 1000
+399336	Kit de Gaxetas e O'rings VJ1510
+
+Cabeçote	
+399422	Modulo de Impressão c/ canhão 60 micron
+399181	Modulo de Valvulas / Aqueçedor
+SP399355	Capa do Cabeçote 1610
+223266	llave de Contato Magnética 
+223277	Parafuso da Capa do Cabeçote
+399508	Cabeçote c/ Umbilical 3M VJ 1610
+
+PlacaS ELETRONICAS	
+SP392434	Placa Principal CSB 4  -  VJ 1560 / VJ 1530
+395790	Tela Touch, Display Color VJ 1650 , VJ 1650 UHS
+395791	Placa Clarity VJ 1650, VJ 1550, VJ 1650 UHS
+395893	Cartão de Memoria SD Card VJ 1650 UHS, VJ 1650
+SP219041	Chave de Força VJ1510
+399074	Kit de Placa de Interfaz Sistema de Tinta VJ 1510
+395897	Fonte PSU VJ 1650 / 1650 UHS con kit de partes
+399473	Placa PIB VJ 1610 com kit de partes
+399079	Ventilador do Sistema Electronico
+399080	Ventilador do Sistema de Tinta
+399091	Display LCD VJ 1510 com kit de partes
+399081	Módulo EHT (HV)
+399458	Bomba de Ar positivo VJ 1610 - kit completo
+
+
+
+

@@ -1,0 +1,41 @@
+FILTROS	
+399239	Kit Filtro de Aire Sistema de Tinta IP55 (5 externo y 1 interno)(trocar o filtro externo a cada 2.000 hs)
+399238	Kit Fan filter ink system IP65 (5 externo e 1 interno)
+239415	filtro torpedo da 1710 (trocar junto com o nucleo (4000 hs))
+
+SISTEMA DE TINTA	
+399072	Kit de Tubos VJ 1510
+395624	Kit de Manifold/ Transd/ Válvulas / Bomba de Vácuo VJ1710
+239223	Bomba de Tinta VJ 1710
+395625	Agulha / Septum de Tinta e Make-up VJ 1710
+SP399246	Cartucho Especial p/ vaciar Nucleo VJ 1510
+395828	Kit de Gaxetas e O'rings VJ1710
+
+CABEÇOTE	
+395620	Modulo de Impressão c/ boquilla 70 micron, 64KHz VJ1710
+395619	Modulo de Impressão c/ boquilla 60 micron, 64KHz VJ1710
+395630	Modulo de Valvulas / Aquecedor VJ 1710
+SP399355	Capa do Cabeçote Perfurada 1610
+223266	Chave de Contato Magnética 
+223277	parafuso da capa do cabeçote 
+395613	Cabeçote c/ Umbilical 3M VJ 1610 c/ canhão 60um
+395615	Cabeçote c/ Umbilical 3M VJ 1610 c/ canhão 70um
+sin código	Chave allen 1,5mm / 6 mm de largo - cab plana en acero inox
+
+PLACAS ELETRONICAS	
+SP399971W	Placa Principal CSB3 -  VJ 1710
+SP239457	Chave de Fuerza STANDBY MODE - VJ 1710
+SP395605	Placa de Interface Externa PCB#5
+399077	Fonte de Alimentação PSU VJ 1510 com kit de partes
+SP399760	Placa PIB VJ 1710 com kit de partes
+399079	Ventilador do Sistema Eletrônico
+399080	Ventilador do Sistema de Tinta
+399091	Display LCD VJ 1510 com kit de partes
+399081	Módulo EHT (HV)
+399101	Painel Frontal com Teclado Europeu Interface Excel
+399117	Painel Frontal com Teclado Europeu Interface 400
+399458	Bomba de Aire positivo VJ 1610 - kit completo
+SP395734	Placa de Aviso Sonoro BUZZER
+
+
+

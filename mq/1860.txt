@@ -1,0 +1,43 @@
+FILTROS	
+611221	Filtro de Ar IP55 - kit c/ 5 elementos do filtro (trocar a cada 2.000 hs mandatorio)
+611172	Filtro de Ar IP66 - unidade c/ base completa (trocar a cada 2.000 hs mandatorio)
+
+SISTEMA DE TINTA	
+611170	Modulo de Servico 2 - c/ bomba flush e 4 valvulas (trocar a cada 12.000 hs de trabalho mandatorio)
+611150	Valvula de Tinta  VE, VV e Viscosimetro
+611144	Bomba de Ar Positivo VJ 1860
+611246	Bomba de Tinta VJ 1860
+611207	Cartucho Especial 1 litro p/ Esvaziar Sistema
+611149	Filtro Pre-Venturi 100 microns
+611249	Kit de Gaxetas e O'rings VJ 1860
+611155	Sistema de Tinta sem bomba VJ1860
+611250	Kit de Hardware c/ distinctas partes VJ 1860
+611258	Kit de Cabos dol Sistema de Tinta
+611152	Camara VMS e Sensor de Temperatura de Tinta
+611153	Ventilador do Sistema de Tinta VJ1860
+
+CABEÇOTE	
+611146	Modulo Impressao canhão 60 micron VJ 1860
+611147	Modulo de Valvulas / Aquecedor VJ 1860
+611143	Capa metalica do cabecote VJ 1860
+223277	Parafuso do Lid do Cabecote
+611145	Umbilical 3 M VJ 1860
+611224	Umbilical 6 M VJ 1860   (opcional)
+
+PLACAS ELETRONICAS	
+611156	Placa Principal MCB VJ 1860
+611164	Botão Força VJ 1860 c/ cabeação
+611231	PLACA ELETRONICA DO SISTEMA DE TINTA DA IMPRESSORA JATO DE TINTA CIJ 1860
+611231	Placa IMB do Sistema de Tinta VJ 1860
+611160	Fonte PSU VJ 1860
+611142	Placa do Cabecote VJ 1860
+611163	Ventilador da Eletronica c/ cabeação
+611162	Display LCD c/ Tela Touch VJ 1860 c/ kit de partes
+611159	Módulo EHT (HV) VJ 1860
+611245	Placa de Expansão c/ Conectores de E/S - extras
+611197	Conector Serial RS232, kit completo
+611242	Cartão Micro SD Card da Placa MCB
+
+
+
+

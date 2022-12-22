@@ -1,0 +1,43 @@
+FILTROS	
+611221	Filtro de Aire IP55 - kit c/ 5 elementos del filtros (trocar a cada 2.000 hs recomendado)
+	
+SISTEMA DE TINTA	
+613598	Modulo de Controle de Solvente
+611407	Valvula de Adição de Solvente
+611408	Valvula de Adição de Tinta
+611409	Bomba de Flush
+613617	Bomba de Canaleta
+611396	Bomba de Ar Positivo VJ 1580
+611246	Bomba de Tinta VJ 1580
+611207	Cartucho Especial 1 litro p/ drenar Sistema
+611149	Filtro Pre-Venturi 100 microns
+613636	Valvula solenoide do viscosimetro
+613616	Kit de gaxetas 1580
+613593	Sistema de Tinta completo 1580
+613585	Kit de Cabos do Sistema de Tinta
+611152	Camara VMS e Sensor de Temperatura de Tinta
+611153	Tampa Sistema de Tinta c/ Vetilador do Sistema de Tinta VJ1580
+
+CABEÇOTE	
+399422	Modulo Impresão c/ canhão 60 micron VJ 1000
+399180	Modulo Impresão c/ canhão 70 micron VJ 1000
+399181	Modulo de Valvulas / Calientador VJ 1000
+611410	Capa Perfurada do cabeçote VJ 1580
+399182	Capa do cabeçote standard VJ1580
+613587	Umbilical e Chassis Cabeçote 3 M VJ1580
+613588	Umbilical e Chassis Cabeçote 6 M VJ1580
+
+PLACAS ELETRÔNICAS	
+613594	Placa Principal MCB Standard VJ1580
+611395	Placa Principal MCB IP65 VJ1580
+613620	Botão Liga/Desliga VJ 1580
+613599	Placa IMB do Sistema de Tinta VJ1580
+613619	Fonte de Alimentação PSU VJ 1580
+613615	Display LCD c/ Touch VJ 1580 c/ cabo
+613595	Módulo EHT (HV) VJ 1580
+611242	Micro SD Card da Placa MCB
+
+
+
+
+

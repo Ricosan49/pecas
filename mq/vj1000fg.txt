@@ -1,0 +1,81 @@
+Ink core w/ pump FG 
+399465 -------- 1210
+SP392127 ---- 1220
+399382 -------- 1510 
+SP392094 ---- 1520
+399559 -------- 1610/1610DH
+SP392129 ---- 1620
+
+Ink core w/o pump FG
+399464 -------- 1210 
+SP392168 ---- 1220 
+399383 -------- 1510
+SP392166 ---- 1520
+399558 -------- 1610/1610DH 
+SP392170 ---- 1620
+
+Modulos Impressores (Print Head Modules FG )
+399386 -------- Print Head Valve Module FG 
+399586 -------- Print Head Engine 60u FG
+399385 -------- Print Head Engine 70u FG 
+SP399658 ---- 90 Degree Printhead Engine 60u FG
+SP399659 ---- 90 Degree Printhead Engine 70u FG 
+
+Ink Pump FG
+399384 -------- 1210/1220/1510/1520/1610/DH/1620
+
+Gutter Pump Assembly FG
+399393 -------- 1210/1220/1510/1520/1610/1620
+395656 -------- 1610DH 
+
+Ink Door assy (includes septum assy) FG
+399392 -------- 1210/1220/1510 IP55 
+399585 -------- 1520/1610/DH/1620 IP65
+
+Septum Assembly FG 
+399391 -------- 1210/1220/1510/1520/1610/DH/1620 
+
+1210/1220 Umbilical Assy' FG 
+399467 -------- 2M w/o modules - FG 
+392033 -------- 2M, 60u Nozzle - FG  
+399466 -------- 2M, 70u Nozzle - FG 
+399389 -------- 3M w/o modules - FG  
+399550 -------- 3M, 60u nozzle - FG 
+399387 -------- 3M, 70u nozzle - FG 
+399657 -------- 90 Deg PH Umbilical w/o modules (2m) FG
+399648 -------- 90 Deg PH Umbilical Complete (2m) 70u FG  
+399655 -------- 90 Deg PH Umbilical w/o modules (3m) FG  
+399646 -------- 90 Deg PH Umbilical Complete (3m) 70u FG 
+399650 -------- 90 Deg PH Umbilical Complete (3m) 60u FG  
+  
+
+ 1510 Umbilical Assy' FG  
+399389 -------- 3M w/o modules - FG 
+399550 -------- 3M, 60u nozzle - FG 
+399387 -------- 3M, 70u nozzle - FG 
+399390 -------- 6M w/o modules - FG 
+399551 -------- 6M, 60u nozzle - FG  
+399388 -------- 6M, 70u nozzle - FG  
+399655 -------- 90 Deg PH Umbilical w/o modules (3m) FG 
+399646 -------- 90 Deg PH Umbilical Complete (3m) 70u FG  
+399650 -------- 90 Deg PH Umbilical Complete (3m) 60u FG 
+399647 -------- 90 Deg PH Umbilical Complete (6m) 70u FG  
+399651 -------- 90 Deg PH Umbilical Complete (6m) 60u FG   
+399656 -------- 91 Deg PH Umbilical w/o modules (6m) FG 
+  
+ 
+1520/1610/1610DH/1620 Umbilical Assy' FG  
+399587 -------- 3M w/o modules - FG 
+399555 -------- 3M w/60u Nozzle - FG 
+395681 -------- 3M w/70u Nozzle - FG 
+399588 -------- 6M w/o modules - FG 
+399556 -------- 6M w/ 60u Nozzle - FG 
+395682 -------- 6M w/70u Nozzle - FG 
+399655 -------- 90 Deg PH Umbilical w/o modules (3m) FG 
+399653 -------- 90 Deg PH Umbilical Complete (3m) 60u FG 
+395712 -------- 90 deg PH umbilical Complete (3m) 70u FG 
+399656 -------- 90 Deg PH Umbilical w/o modules (6m) FG 
+399654 -------- 90 Deg PH Umbilical Complete (6 m) 60u FG 
+395713 -------- 90 deg PH umbilical Complete (6m) 70u FG 
+
+

@@ -1,0 +1,90 @@
+body {
+    background-color: #D8D8D8;
+}
+.logoA {
+   border: black;
+}
+.titulo {
+	font: normal 15pt Arial;
+	font-size: 35px;
+	border-bottom-color: black;
+	text-align: center;
+}
+.navbotao {
+	display: block;
+}
+.botaoprinc {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	width: 150px;
+	list-style: none;
+	text-transform: uppercase;
+}
+.botaoprinc li{
+	background-color: #87CEEB;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition: background-color 1s;
+	transition: background-color 1s;
+	border-radius: 0px;
+}
+.botaoprinc li:hover{
+	background-color: #543af6;
+}
+.botaodiv {
+	border-color: #D8D8D8;
+	text-align: center;
+	border-radius: 1px;
+	font: normal 15pt Arial;
+	font-size: 15px;
+	width: 150px;
+	background-color:#87CEEB;
+}
+.diver {
+	position: absolute;
+	text-align: center;
+	margin-left: 200px;
+	margin-top: -250px;
+	width: 150px;
+	height: auto;
+	background-color: white;
+	border-radius: 5px;
+	
+}
+.adiver {
+	margin: auto;
+	top: 500px;
+	font: normal 15pt Arial;
+	font-size: 30px;
+}
+.adivera {
+	background-color: #38bff5;
+	width: 150px;
+	margin: auto;
+	font: normal 15pt Arial;
+	font-size: 20px;
+}
+.mode {
+	margin-top: -0px;
+	font-family: normal 15pt Arial;
+	font-size: 45px;
+}
+.listas {
+	position: absolute;
+	margin-left: 360px;
+	margin-top: -250px;
+	text-align: center;
+	font: normal 15pt Arial;
+	width: 900px;
+	height: auto;
+	background-color: rgb(217, 234, 241);
+	border-radius: 1px;
+	
+}
+.list {
+	font: normal 40pt Arial;
+	width: 880px;
+	height: auto;
+	background-color: white;
+}

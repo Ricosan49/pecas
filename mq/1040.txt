@@ -1,0 +1,33 @@
+FILTROS	
+SP231116	Filtro de Ar do Exaustor IP43 - unitario(Trocar a cada 3 meses)
+
+SISTEMA DE TINTA	
+SP383422	Kit 5 Valvulas de Tinta  do Sistema VJ1040
+SP383423	Válvula VL
+SP383425	Kit da Bomba de Tinta VJ1040
+SP383412	Sistema de Tinta com transdutores e Venturis, sem bomba VJ1040
+383099		Kit de gaxetas e o'rings de vedação VJ1040
+SP383421	Kit Montagem da Valvula Septum VJ1040
+
+CABEZAL	
+SP383437	Modulo de Impressão c/ canhão 60 micron
+SP383408	Modulo de Valvulas / Aqueçedor
+SP383342	Capa do cabeçote VJ 1040
+223277		Parafuso da Capa do Cabecote
+SP390683	NRV da Linha de Retorno VJ1040
+SP383410	Umbilical 2m com cabos , mangueiras, sem modulos VJ1040
+
+Placas ELETRONICAS	
+SP383405	Placa Principal MCB VJ1040
+SP383426	Botão de Força VJ1040 c/ cabeação interna
+SP383418	Kit de Fonte de Alimentação PSU VJ1040  +24v
+SP383417	Kit de Fonte de Alimentação PSU VJ1040  +15v
+SP383402	Kit  Display LCD con touch VJ1040
+SP389494	Fusivel Eletrico de Entrada
+399081	Módulo EHT (HV)
+SP383352	Ventilador de Refrigeração de Electronica
+SP383424	Placa VCB  interna do Nucleo
+388090	Conector DIN 3 pos. femêa  do sensor
+383870	Cabo adaptor para sensor VJ 1000
+
+
