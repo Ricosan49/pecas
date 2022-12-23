@@ -23,7 +23,7 @@ SP399355	Capa do Cabeçote Perfurada 1610
 sin código	Chave allen 1,5mm / 6 mm de largo - cab plana en acero inox
 
 PLACAS ELETRONICAS	
-SP399971W	Placa Principal CSB3 -  VJ 1710
+SP392424	Placa Principal CSB -  VJ 1710
 SP239457	Chave de Fuerza STANDBY MODE - VJ 1710
 SP395605	Placa de Interface Externa PCB#5
 399077	Fonte de Alimentação PSU VJ 1510 com kit de partes
