@@ -15,7 +15,7 @@ function iniccij() {
 }
 
 function rescij() {
-    var cpcb = '<button name="cij" onclick="ccpcb()" class="botaodiv">Placas PCBs VJ1000</button>'
+    var cpcb  = '<button name="cij" onclick="ccpcb()" class="botaodiv">Placas PCBs VJ1000</button>'
     var c1040 = '<button name="cij" onclick="c1040()" class="botaodiv">1040</button>'
     var c1210 = '<button name="cij" onclick="c1210()" class="botaodiv">1210</button>'
     var c1220 = '<button name="cij" onclick="c1220()" class="botaodiv">1220</button>'
