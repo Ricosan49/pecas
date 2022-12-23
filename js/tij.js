@@ -2,14 +2,14 @@ var divres = window.document.getElementById('ver')
 var divptitulo = window.document.getElementById('divpti')
 var mod = window.document.getElementById('modelo')
 var list = window.document.getElementById('lista')
-function iniclaser() {
+function inictij() {
     divres.innerHTML = ''
     list.innerHTML = ''
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var tij = '<button name="cij" onclick="restij()" class="botaodiv">Peças</button>'
     var tijm = '<button name="cij" onclick="restij()" class="botaodiv">Manual</button>'
-    var tijcon = '<button name="cij" onclick="restij()" class="botaodiv">Circuito do Nucleo</button>'
+    var tijcon = '<button name="cij" onclick="restij()" class="botaodiv">Conexões</button>'
     divres.innerHTML = `<p class="adivera">TIJ</p>${tij} ${tijm} ${tijcon}`
 }
 
@@ -25,7 +25,7 @@ function cwolke() {
     list.innerHTML = ''
     mod.innerHTML = 'Wolke<br>'
     divptitulo.innerHTML = ''  
-    var ler = '<a href="" class="advera">Peças Wolke</a>'
+    var ler = '<a href="tij/wolke.pdf" class="advera">Peças Wolke</a>'
     list.innerHTML = ler
     
 }
@@ -33,7 +33,7 @@ function c8510() {
     list.innerHTML = ''
     mod.innerHTML = '8510<br>'
     divptitulo.innerHTML = ''  
-    var ler = '<a href="" class="advera">Peças 8510</a>'
+    var ler = '<a href="tij/8510.pdf" class="advera">Peças 8510</a>'
     list.innerHTML = ler
     
 }
@@ -41,7 +41,7 @@ function c8520() {
     list.innerHTML = ''
     mod.innerHTML = '8520<br>'
     divptitulo.innerHTML = ''  
-    var ler = '<a href="" class="advera">Peças 8520</a>'
+    var ler = '<a href="tij/8520a.pdf" class="advera">Peças 8520</a>'
     list.innerHTML = ler
     
 }
@@ -49,7 +49,7 @@ function c8610() {
     list.innerHTML = ''
     mod.innerHTML = '8610<br>'
     divptitulo.innerHTML = ''  
-    var ler = '<a href="" class="advera">Peças 8610</a>'
+    var ler = '<a href="tij/8610.pdf" class="advera">Peças 8610</a>'
     list.innerHTML = ler
     
 }
