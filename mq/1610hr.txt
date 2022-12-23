@@ -19,7 +19,6 @@ SP395805	Capuchon del cabezal 1620 UHS
 399508	Cabezal c/ Umbilical 3M VJ 1610
 
 TARJETAS ELETRONICAS	
-SP392125UHS	Tarjeta Principal CSB VJ 1620 UHS
 SP392436	Tarjeta Principal CSB 5  VJ 1620 UHS / HR
 SP219041	llave de Fuerza VJ 1000
 399074	Kit de Tarjeta de Interfaz Sistema de Tinta VJ 1510

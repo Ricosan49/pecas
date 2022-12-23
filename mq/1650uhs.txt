@@ -19,7 +19,7 @@ SP395805	Capa de proteção da cabeça 1620 UHS - 1650 UHS
 399508	Umbilical 3M VJ 1610
 	
 PLACAS ELETRONICAS	
-SP392438    Placa Principal CSB VJ 1620 UHS / 1650 UHS
+SP392438	Placa Principal CSB VJ 1620 UHS / 1650 UHS
 395790	Tela Touch, Display Color VJ 1650 , VJ 1650 UHS
 395791	Placa Clarity VJ 1650, VJ 1650 UHS
 395893	Cartão de Memoria SD Card VJ 1650 UHS, VJ 1650

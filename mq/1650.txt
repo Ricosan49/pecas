@@ -19,7 +19,7 @@ SP399355	Capuchon del cabezal 1610
 399508	Cabezal c/ Umbilical 3M VJ 1610
 
 TARJETAS ELETRONICAS	
-SP392418	Tarjeta Principal CSB   -  VJ 1650
+SP392418    Tarjeta Principal CSB   -  VJ 1650
 395790	Pantalla Touch, Display Color VJ 1650 , VJ 1650 UHS
 395791	Tarjeta Clarity VJ 1650, VJ 1650 UHS
 395893	Carton de Memoria SD Card VJ 1650 UHS, VJ 1650
