@@ -20,7 +20,7 @@ SP399355	Capa metalica do cabecote 1610
 399506	Cabecote c/ Umbilical 3M VJ 1610 c/ canhão 60um
 
 PLACAS ELETRONICAS	
-SP392125	Placa Principal CSB VJ 1620
+SP392416	Placa Principal CSB VJ 1620
 SP219041	Chave de Força VJ1510
 399074	Kit da Placa de Interface Sistema de Tinta VJ 1510
 399077	Fonte PSU VJ 1510 com kit de partes
