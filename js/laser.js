@@ -9,7 +9,7 @@ function iniclaser() {
     divptitulo.innerHTML = ''
     var laser = '<button name="cij" onclick="reslaser()" class="botaodiv">Peças</button>'
     var laserm = '<button name="cij" onclick="reslaser()" class="botaodiv">Manual</button>'
-    var lasercon = '<button name="cij" onclick="reslaser()" class="botaodiv">Circuito do Nucleo</button>'
+    var lasercon = '<button name="cij" onclick="reslaser()" class="botaodiv">Circuito de Ligação</button>'
     divres.innerHTML = `<p class="adivera">LASER</p>${laser} ${laserm} ${lasercon}`
 }
 
