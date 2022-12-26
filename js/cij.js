@@ -1,3 +1,4 @@
+
 var divres = window.document.getElementById('ver')
 var divptitulo = window.document.getElementById('divpti')
 var mod = window.document.getElementById('modelo')
@@ -8,7 +9,7 @@ function iniccij() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var cij = '<button name="cij" onclick="rescij()" class="botaodiv">Peças</button>'
-    var cijm = '<button name="cij" onclick="rescij()" class="botaodiv">Manual</button>'
+    var cijm = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
     var cijcn = '<button name="cij" onclick="nucleo()" class="botaodiv">Circuito do Nucleo</button>'
     var cijcon = '<button name="cij" onclick="rescon()" class="botaodiv">Conexões</button>'
     divres.innerHTML = `<p class="adivera">CIJ</p>${cij} ${cijm} ${cijcn} ${cijcon}`

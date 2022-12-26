@@ -8,8 +8,8 @@ function inictij() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var tij = '<button name="cij" onclick="restij()" class="botaodiv">Peças</button>'
-    var tijm = '<button name="cij" onclick="restij()" class="botaodiv">Manual</button>'
-    var tijcon = '<button name="cij" onclick="restij()" class="botaodiv">Conexões</button>'
+    var tijm = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
+    var tijcon = '<button name="cij" onclick="conexaotij()" class="botaodiv">Conexões</button>'
     divres.innerHTML = `<p class="adivera">TIJ</p>${tij} ${tijm} ${tijcon}`
 }
 

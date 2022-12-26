@@ -8,8 +8,8 @@ function iniclaser() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var laser = '<button name="cij" onclick="reslaser()" class="botaodiv">Peças</button>'
-    var laserm = '<button name="cij" onclick="reslaser()" class="botaodiv">Manual</button>'
-    var lasercon = '<button name="cij" onclick="reslaser()" class="botaodiv">Circuito de Ligação</button>'
+    var laserm = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
+    var lasercon = '<button name="cij" onclick="conexaolaser()" class="botaodiv">Circuito de Ligação</button>'
     divres.innerHTML = `<p class="adivera">LASER</p>${laser} ${laserm} ${lasercon}`
 }
 

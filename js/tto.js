@@ -8,10 +8,11 @@ function inictto() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var tto = '<button name="cij" onclick="restto()" class="botaodiv">Peças</button>'
-    var ttom = '<button name="cij" onclick="restto()" class="botaodiv">Manual</button>'
-    var ttocon = '<button name="cij" onclick="restto()" class="botaodiv">Conexões</button>'
+    var ttom = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
+    var ttocon = '<button name="cij" onclick="conexaoTTO()" class="botaodiv">Conexões</button>'
     divres.innerHTML = `<p class="adivera">TTO</p>${tto} ${ttom} ${ttocon}`
 }
+
 function restto() {
     var c6210 = '<button name="tto" onclick="c6210()" class="botaodiv">6210</button>'
     var cdfp = '<button name="tto" onclick="cdfp()" class="botaodiv">DF+</button>'

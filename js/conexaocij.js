@@ -36,11 +36,50 @@ function nucleo() {
     list.innerHTML = ''
     mod.innerHTML = 'Nucleos VJ1000<br>'
     divptitulo.innerHTML = ''  
-    var lerO = '<a href="conexoes/NucleoOriginal.pdf">Nucleo original</a><br>'
+    var lerO = '<a href="conexoes/NucleoOriginaL.pdf">Nucleo original</a><br>'
     var lerB = '<a href="conexoes/NucleoTipoB.pdf">Nucleo Tipo B</a><br>'
-    var lerC = '<a href="conexoes/NucleoTipoC.pdf">Nucleo Tipo C</a><br>'
-    var ler17 = '<a href="conexoes/nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a>'
-    list.innerHTML = `${lerO} ${lerB} ${lerC} ${ler17}`
+    var lerC = '<a href="conexoes/NucleoTipoC.pdf">Nucleo Tipo C</a>'
+    var lerC = '<a href="conexoes/Nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a>'
+    list.innerHTML = `${lerO} ${lerB} ${lerC}`
+    
+}
+function conexaoTTO() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Conexões TTO<br>'
+    divptitulo.innerHTML = ''  
+    var lerO = '<a href="conexoes/I_O6210 DF+.pdf">I/O 6210</a><br>'
+    var lerB = '<a href="conexoes/I_O6230.pdf">I/O 6230</a><br>'
+    var lerC = '<a href="conexoes/I_O6210 DF+.pdf">I/O DF+ - 6420</a><br>'
+    var lerD = '<a href="conexoes/I_O6330 6530.pdf">I/O 6330/6530</a>'
+    list.innerHTML = `${lerO} ${lerB} ${lerC} ${lerD}`
+    
+}
+function conexaolcm() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Conexões LCM<br>'
+    divptitulo.innerHTML = ''  
+    var lerO = '<a href="conexoes/I_O2300.pdf">I/O 2300</a><br>'
+    list.innerHTML = `${lerO}`
+    
+}
+function conexaolaser() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Conexões LCM<br>'
+    divptitulo.innerHTML = ''  
+    var lerO = '<a href="conexoes/I_O3120 3320.pdf">I/O 3120/3320/3130/3330</a><br>'
+    var lerA = '<a href="conexoes/I_O3140 3340.pdf">I/O 3140/3340</a><br>'
+    var lerB = '<a href="conexoes/I_OX9seg3140 3340.pdf">I/O conector X9 3140/3340</a><br>'
+    list.innerHTML = `${lerO} ${lerA} ${lerB}`
+    
+}
+function conexaotij() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Conexões TIJ<br>'
+    divptitulo.innerHTML = ''  
+    var lerO = '<a href="conexoes/I_OM600.pdf">I/O M600</a><br>'
+    var lerA = '<a href="conexoes/I_O8510.pdf">I/O 8510/8520</a><br>'
+    var lerB = '<a href="conexoes/I_O8510.pdf">I/O 8610</a><br>'
+    list.innerHTML = `${lerO} ${lerA} ${lerB}`
     
 }
 

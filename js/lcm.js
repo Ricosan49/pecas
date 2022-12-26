@@ -8,8 +8,8 @@ function iniclcm() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var lcm = '<button name="cij" onclick="reslcm()" class="botaodiv">Peças</button>'
-    var lcmm = '<button name="cij" onclick="reslcm()" class="botaodiv">Manual</button>'
-    var lcmcon = '<button name="cij" onclick="reslcm()" class="botaodiv">Conexões</button>'
+    var lcmm = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
+    var lcmcon = '<button name="cij" onclick="conexaolcm()" class="botaodiv">Conexões</button>'
     divres.innerHTML = `<p class="adivera">LCM</p>${lcm} ${lcmm} ${lcmcon}`
 }
 
