@@ -38,7 +38,7 @@ function nucleo() {
     divptitulo.innerHTML = ''  
     var ler1 = '<a href="conexoes/NucleoOriginal.pdf">Nucleo original</a><br>'
     var ler2 = '<a href="conexoes/NucleoTipoB.pdf">Nucleo Tipo B</a><br>'
-    var ler3 = '<a href="conexoes/NucleoTipoC.pdf">Nucleo Tipo C</a>'
+    var ler3 = '<a href="conexoes/NucleoTipoC.pdf">Nucleo Tipo C</a><br>'
     var ler4 = '<a href="conexoes/nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a>'
     list.innerHTML = `${ler1} ${ler2} ${ler3} ${ler4}`
     
