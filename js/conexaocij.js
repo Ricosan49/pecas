@@ -36,10 +36,10 @@ function nucleo() {
     list.innerHTML = ''
     mod.innerHTML = 'Nucleos VJ1000<br>'
     divptitulo.innerHTML = ''  
-    var lerO = '<a href="conexoes/NucleoOriginaL.pdf">Nucleo original</a><br>'
+    var lerO = '<a href="conexoes/NucleoOriginal.pdf">Nucleo original</a><br>'
     var lerB = '<a href="conexoes/NucleoTipoB.pdf">Nucleo Tipo B</a><br>'
     var lerC = '<a href="conexoes/NucleoTipoC.pdf">Nucleo Tipo C</a>'
-    var lerC = '<a href="conexoes/Nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a>'
+    var lerC = '<a href="conexoes/nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a>'
     list.innerHTML = `${lerO} ${lerB} ${lerC}`
     
 }
