@@ -35,7 +35,7 @@ function c2340() {
     list.innerHTML = ''
     mod.innerHTML = '2340<br>'
     divptitulo.innerHTML = '404428 - Kit de Filtros manutencao Preventiva<br>402287 - MODULO DE IMPRESSAO LCM VJ2310/2340<br>'  
-    var ler = '<a href="lcm/2340 2351 2361IPB.pdf" class="advera">Peças 2120</a>'
+    var ler = '<a href="lcm/234023512361.pdf" class="advera">Peças 2340</a>'
     list.innerHTML = ler
     
 }
@@ -43,7 +43,7 @@ function c2351() {
     list.innerHTML = ''
     mod.innerHTML = '2351<br>'
     divptitulo.innerHTML = '404428 - Kit de Filtros manutencao Preventiva<br>36466 - KIT DE FILTROS DO COLETOR DE TINTA DA IMPRESSORA LCM 2351/2361<br>36485 - MODULO DE IMPRESSAO LCM V2351<br>'  
-    var ler = '<a href="lcm/2340 2351 2361IPB.pdf" class="advera">Peças 2351</a>'
+    var ler = '<a href="lcm/234023512361.pdf" class="advera">Peças 2351</a>'
     list.innerHTML = ler
     
 }
@@ -51,7 +51,7 @@ function c2361() {
     list.innerHTML = ''
     mod.innerHTML = '2361<br>'
     divptitulo.innerHTML = '404428 - Kit de Filtros manutencao Preventiva<br>36466 - KIT DE FILTROS DO COLETOR DE TINTA DA IMPRESSORA LCM 2351/2361<br>36486 - MODULO DE IMPRESSAO LCM V2361<br>'  
-    var ler = '<a href="lcm/2340 2351 2361IPB.pdf" class="advera">Peças 2361</a>'
+    var ler = '<a href="lcm/234023512361.pdf" class="advera">Peças 2361</a>'
     list.innerHTML = ler
     
 }
