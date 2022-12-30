@@ -57,7 +57,7 @@ function c632053() {
     list.innerHTML = ''
     mod.innerHTML = '6320 Cabeça 53mm<br>'
     divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO 53MM 6320-TTO<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  53MM<br>'  
-    var ler = '<a href="tto/63203253IPL.pdf" class="advera">Peças 6320 cabeça de 53mm</a>'
+    var ler = '<a href="tto/6320IPB.pdf" class="advera">Peças 6320 cabeça de 53mm</a>'
     list.innerHTML = ler
     
 }
@@ -65,7 +65,7 @@ function c642053() {
     list.innerHTML = ''
     mod.innerHTML = '6420 Cabeça 53mm<br>'
     divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO 53MM 6320-TTO<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  53MM<br>'  
-    var ler = '<a href="tto/6420IPL.pdf" class="advera">Peças 6420 cabeça de 53mm</a>'
+    var ler = '<a href="tto/6420IPB.pdf" class="advera">Peças 6420 cabeça de 53mm</a>'
     list.innerHTML = ler
     
 }
@@ -73,7 +73,7 @@ function c6420107() {
     list.innerHTML = ''
     mod.innerHTML = '6420 Cabeça 107mm<br>'
     divptitulo.innerHTML = '216585	CABECA DE IMPRESSAO 107MM 6420-TTO<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  53MM<br>'  
-    var ler = '<a href="tto/6420IPL.pdf" class="advera">Peças 6420 cabeça de 107mm</a>'
+    var ler = '<a href="tto/6420IPB.pdf" class="advera">Peças 6420 cabeça de 107mm</a>'
     list.innerHTML = ler
     
 }
