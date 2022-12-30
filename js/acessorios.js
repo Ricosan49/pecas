@@ -13,7 +13,8 @@ function acesso() {
     var acesso3 = '<button  onclick="acessolcm()" class="botaodiv">LCM</button>'
     var acesso4 = '<button  onclick="acessolpa()" class="botaodiv">LPA</button>'
     var acesso5 = '<button  onclick="acessotij()" class="botaodiv">TIJ</button>'
-    divres.innerHTML = `<p class="adivera">Acessórios</p>${acesso1} ${acesso2} ${acesso3} ${acesso4} ${acesso5}`
+    var acesso6 = '<button  onclick="acessolaser()" class="botaodiv">LASER</button>'
+    divres.innerHTML = `<p class="adivera">Acessórios</p>${acesso1} ${acesso2} ${acesso3} ${acesso4} ${acesso5} ${acesso6}`
 }
 function acessocij() {
     list.innerHTML = ''
@@ -69,5 +70,15 @@ function acessotij() {
     divptitulo.innerHTML = ''  
     var ler0 = '<a  href="acessorios/accessoriostij.pdf" class="advera" >Acessórios</a><br>'
     list.innerHTML = `${ler0}` 
+    
+}
+function acessolaser() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Acessorios LASER<br>'
+    divptitulo.innerHTML = ''  
+    var ler0 = '<a   class="advera" >WBZ1024025 - ENCODER LASER: ENCODER 2000 PPR EIXO 6MM SAIDA A  B CABO 4 M</a><br>'
+    var ler1 = '<a   class="advera" >WBZ0042044 - SENSOR REFLEXAO DIFUSA PNP (STANDARD)</a><br>'
+    var ler2 = '<a   class="advera" >WBZ0042035 - REFLETOR BOS-R-1 (espelho)</a><br>'
+    list.innerHTML = `${ler0} ${ler1} ${ler2}` 
     
 }
