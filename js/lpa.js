@@ -25,11 +25,12 @@ function p9550() {
     mod.innerHTML = 'Peças 9550<br>'
     divptitulo.innerHTML = '406315 - CABEÇA DE IMPRESSÃO 107 mm<br>'  
     var ler0 = '<a href="lpa/peca9550.pdf" class="advera">Vista explodida de peças 9550</a><br>'
-    var ler1 = '<a href="lpa/9550sincro.pdf" class"advera">Lista de peças completa Sincrona</a><br>'
-    var ler2 = '<a href="lpa/9550tamp.pdf" class"advera">Lista de peças completa aplicador TAMP</a><br>'
-    var ler3 = '<a href="lpa/9550rcw.pdf" class"advera">Lista de peças completa aplicador RCW</a><br>'
-    var ler4 = '<a href="lpa/9550fop.pdf" class"advera">Lista de peças completa aplicador FOP</a>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4}`
+    var ler1 = '<a href="lpa/9550300TTamp.pdf" class="advera">Vista explodida de peças TAMP 300mm 9550</a><br>'
+    var ler2 = '<a href="lpa/9550sincro.pdf" class"advera">Lista de peças completa Sincrona</a><br>'
+    var ler3 = '<a href="lpa/9550tamplista.pdf" class"advera">Lista de peças completa aplicador TAMP</a><br>'
+    var ler4 = '<a href="lpa/9550rcw.pdf" class"advera">Lista de peças completa aplicador RCW</a><br>'
+    var ler5 = '<a href="lpa/9550fop.pdf" class"advera">Lista de peças completa aplicador FOP</a>'
+    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}`
     
 }
 function pp3400() {
