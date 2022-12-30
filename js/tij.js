@@ -25,7 +25,7 @@ function cwolke() {
     list.innerHTML = ''
     mod.innerHTML = 'Wolke<br>'
     divptitulo.innerHTML = ''  
-    var ler = '<a href="tij/wolke.pdf" class="advera">Peças Wolke</a>'
+    var ler = '<a href="tij/Wolke.pdf" class="advera">Peças Wolke</a>'
     list.innerHTML = ler
     
 }
@@ -41,7 +41,7 @@ function c8520() {
     list.innerHTML = ''
     mod.innerHTML = '8520<br>'
     divptitulo.innerHTML = ''  
-    var ler = '<a href="tij/8520a.pdf" class="advera">Peças 8520</a>'
+    var ler = '<a href="tij/8520A.pdf" class="advera">Peças 8520</a>'
     list.innerHTML = ler
     
 }
