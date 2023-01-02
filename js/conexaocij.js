@@ -23,7 +23,7 @@ function conpainelVJ1000() {
     mod.innerHTML = 'Conexões VJ1000<br>'
     divptitulo.innerHTML = ''  
     var ler1 = '<a href="conexoes/painellateralvj1000.pdf">Painel lateral VJ1000</a><br>'
-    var ler2 = '<a href="conexoes/painellateralvj1610dh.pdf">Painel lateral VJ1610DH</a><br>'
+    var ler2 = '<a href="conexoes/painellateralvj1610DH.pdf">Painel lateral VJ1610DH</a><br>'
     var ler3 = '<a href="conexoes/I_O1040.pdf">Painel Lateral 1040</a><br>'
     var ler4 = '<a href="conexoes/I_O12401280.pdf">Painel traseiro 1240/1280</a><br>'
     var ler5 = '<a href="conexoes/I_O1580.pdf">Painel traseiro 1580</a><br>'
