@@ -23,7 +23,7 @@ function reslpa() {
 function p9550() {
     list.innerHTML = ''
     mod.innerHTML = 'Peças 9550<br>'
-    divptitulo.innerHTML = '406315 - CABEÇA DE IMPRESSÃO 107 mm<br>'  
+    divptitulo.innerHTML = '406315 - CABEÇA DE IMPRESSÃO 107 mm<br>409579 - MANDRIL DE REBOBINADO DO RIBBON USADO - modelo novo mais fino'  
     var ler0 = '<a href="lpa/peca9550.pdf" class="advera">Vista explodida de peças 9550</a><br>'
     var ler1 = '<a href="lpa/9550300TTamp.pdf" class="advera">Vista explodida de peças TAMP 300mm 9550</a><br>'
     var ler2 = '<a href="lpa/9550sincro.pdf" class"advera">Lista de peças completa Sincrona</a><br>'
