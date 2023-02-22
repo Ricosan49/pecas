@@ -81,24 +81,26 @@ function c6230() {
     list.innerHTML = ''
     mod.innerHTML = '6230<br>'
     divptitulo.innerHTML = '408300 - CABECA DE IMPRESSAO DE 32MM 6230-TTO<br>408298 - CORREA  6230 (5 UNIDADES)<br>'  
-    var ler = '<a href="tto/6230.pdf" class="advera">Peças 6230</a>'
-    list.innerHTML = ler
+    var ler1 = '<a href="tto/6230.pdf" class="advera">Peças 6230 lista</a></br>'
+    var ler2 = '<a href="tto/IPB 6230.pdf" class="advera">Peças 6230 Ilustrada</a>'
+    list.innerHTML = `${ler1} ${ler2}`
     
 }
 function c633032() {
     list.innerHTML = ''
     mod.innerHTML = '6330 cabeça 32mm<br>'
     divptitulo.innerHTML = '408657 - CABECA DE IMPRESSAO 32MM 6330-TTO<br>407931 - CORREIA   6330-TTO<br>'  
-    var ler = '<a href="tto/6330.pdf" class="advera">Peças 6330 cabeça 32mm</a>'
-    list.innerHTML = ler
+    var ler1 = '<a href="tto/6330.pdf" class="advera">Peças 6330 cabeça 32mm</a></br>'
+    list.innerHTML = ler1
     
 }
 function c633053() {
     list.innerHTML = ''
     mod.innerHTML = '6330 cabeça 53mm<br>'
     divptitulo.innerHTML = '407933 - CABECA DE IMPRESSAO 53MM 6330-TTO<br>407931 - CORREIA   6330-TTO<br>'  
-    var ler = '<a href="tto/6330.pdf" class="advera">Peças 6330 cabeça 53mm</a>'
-    list.innerHTML = ler
+    var ler1 = '<a href="tto/6330.pdf" class="advera">Peças 6330 cabeça 53mm lista</a></br>'
+    var ler2 = '<a href="tto/IPB 6330 53 Illustration.pdf" class="advera">Peças 6330 cabeça 53mm Ilustrada</a>'
+    list.innerHTML = `${ler1} ${ler2}`
     
 }
 function c653053() {
@@ -113,7 +115,8 @@ function c6530107() {
     list.innerHTML = ''
     mod.innerHTML = '6530 cabeça 107mm<br>'
     divptitulo.innerHTML = '408554 - CABECA DE IMPRESSAO 107MM 6530-TTO<br>408677 - CORREIA   6530-TTO<br>'  
-    var ler = '<a href="tto/6530.pdf" class="advera">Peças 6530 cabeça 107mm</a>'
-    list.innerHTML = ler
+    var ler1 = '<a href="tto/6530.pdf" class="advera">Peças 6530 cabeça 107mm lista</a></br>'
+    var ler2 = '<a href="tto/IPB 6530 107 Illustration.pdf" class="advera">Peças 6530 cabeça 107mm ilustrada</a>'
+    list.innerHTML = `${ler1} ${ler2}`
     
 }
