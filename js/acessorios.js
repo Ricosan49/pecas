@@ -25,7 +25,8 @@ function acessocij() {
     var ler2 = '<a  href="acessorios/suportecij.pdf" class="advera" >Suporte CIJ</a><br>'
     var ler3 = '<a  href="acessorios/encodercij.pdf" class="advera" >Encoder CIJ</a><br>'
     var ler4 = '<a  href="acessorios/resfriadorCooler.pdf" class="advera" >Resfriador Cooler</a><br>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4}` 
+    var ler5 = '<a  href="acessorios/conectoresdin.pdf" class="advera" >Conectores DIN</a><br>'
+    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}` 
     
 }
 function acessotto() {
@@ -35,7 +36,8 @@ function acessotto() {
     var ler0 = '<a   class="advera" >216054 - KIT DE LIMPEZA CONTENDO 10 BASTOES DE LIMPEZA PRE SATURADOS COM ALCOOL ISOPROPILICO</a><br>'
     var ler1 = '<a  href="acessorios/suportetto.pdf" class="advera" >Suporte</a><br>'
     var ler2 = '<a  href="acessorios/encodertto.pdf" class="advera" >Encoder</a><br>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2}` 
+    var ler3 = '<a  href="acessorios/borrachatto.pdf" class="advera" >Borrachas</a><br>'
+    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3}` 
     
 }
 function acessolcm() {
