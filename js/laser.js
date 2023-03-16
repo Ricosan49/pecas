@@ -76,7 +76,8 @@ function lentesco2() {
     divptitulo.innerHTML = ''  
     var ler0 = '<a href="laser/lentesco2.pdf" class="advera">Medidas das Lentes</a><br>'
     var ler1= '<a href="laser/tipolenteco2.png" class="advera">Modelo de Lentes</a>'
-    list.innerHTML = `${ler0} ${ler1}`
+    var ler2= '<a href="laser/PreventivaLente.pdf" class="advera">Preventiva Lentes</a>'
+    list.innerHTML = `${ler0} ${ler1} ${ler2}`
     
 }
 function extratores() {
