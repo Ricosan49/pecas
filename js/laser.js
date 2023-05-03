@@ -8,6 +8,7 @@ function iniclaser() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var laser = '<button name="cij" onclick="reslaser()" class="botaodiv">Peças</button>'
+    var tubos = '<button name="cij" onclick="tubos()" class="botaodiv">Extratores</button>'
     var laserm = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
     var cextrator = '<button name="cij" onclick="extratores()" class="botaodiv">Extratores</button>'
     var lasercon = '<button name="cij" onclick="conexaolaser()" class="botaodiv">Circuito de Ligação</button>'
@@ -22,6 +23,14 @@ function reslaser() {
     var rfibra = '<button name="cij" onclick="cfibra()" class="botaodiv">Fibra</button>'
     var respelhos = '<button name="cij" onclick="lentesco2()" class="botaodiv">Lentes CO2</button>'
     divres.innerHTML = `<p class="adivera">Peças LASERS</p>${r30x0} ${r3x20} ${r3x30} ${r3x40} ${rfibra} ${respelhos}`
+    
+}
+function tubos() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Tubos Lasers<br>'
+    divptitulo.innerHTML = 'Novos codigos dos tubos Lasers'  
+    var ler = '<a href="laser/TubosnovosBT.pdf" class="advera">Tubos</a>'
+    list.innerHTML = ler
     
 }
 function c30x0() {
