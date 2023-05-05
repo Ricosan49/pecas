@@ -12,7 +12,7 @@ function iniclaser() {
     var laserm = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
     var cextrator = '<button name="cij" onclick="extratores()" class="botaodiv">Extratores</button>'
     var lasercon = '<button name="cij" onclick="conexaolaser()" class="botaodiv">Circuito de Ligação</button>'
-    divres.innerHTML = `<p class="adivera">LASER</p>${laser} ${laserm} ${cextrator} ${lasercon}`
+    divres.innerHTML = `<p class="adivera">LASER</p>${laser} ${tubos} ${laserm} ${cextrator} ${lasercon}`
 }
 
 function reslaser() {
