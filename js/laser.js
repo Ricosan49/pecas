@@ -28,7 +28,7 @@ function reslaser() {
 function tubos() {
     list.innerHTML = ''
     mod.innerHTML = 'Tubos Lasers<br>'
-    divptitulo.innerHTML = 'Novos codigos dos tubos Lasers'  
+    divptitulo.innerHTML = 'Novos codigos dos tubos Lasers<br>'  
     var ler = '<a href="laser/TubosnovosBT.pdf" class="advera">Tubos</a>'
     list.innerHTML = ler
     
