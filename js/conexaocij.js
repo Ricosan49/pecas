@@ -39,7 +39,7 @@ function nucleo() {
     var ler1 = '<a href="conexoes/NucleoOriginal.pdf">Nucleo original</a><br>'
     var ler2 = '<a href="conexoes/NucleoTipoB.pdf">Nucleo Tipo B</a><br>'
     var ler3 = '<a href="conexoes/NucleoTipoC.pdf">Nucleo Tipo C</a><br>'
-	var ler4 = '<a href="conexoes/sistematinta1040.pdf">Nucleo 1040</a><br>'
+    var ler4 = '<a href="conexoes/sistematinta1040.pdf">Nucleo 1040</a><br>'
     var ler5 = '<a href="conexoes/nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a><br>'
     var ler6 = '<a href="conexoes/sistematinta1240_1280.pdf">Sistema de tinta 1240/1280</a><br>'
     var ler7 = '<a href="conexoes/sistematinta1580.pdf">Sistema de tinta 1580</a><br>'
