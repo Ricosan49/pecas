@@ -76,15 +76,14 @@ body {
 	margin-top: -250px;
 	text-align: center;
 	font: normal 15pt Arial;
-	width: 900px;
+	width: 920px;
 	height: auto;
 	background-color: rgb(217, 234, 241);
 	border-radius: 1px;
 	
 }
 .list {
-	font: normal 40pt Arial;
-	width: 880px;
+	width: 900px;
 	height: auto;
 	background-color: white;
 }
