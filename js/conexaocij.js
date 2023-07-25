@@ -39,12 +39,13 @@ function nucleo() {
     var ler1 = '<a href="conexoes/NucleoOriginal.pdf">Nucleo original</a><br>'
     var ler2 = '<a href="conexoes/NucleoTipoB.pdf">Nucleo Tipo B</a><br>'
     var ler3 = '<a href="conexoes/NucleoTipoC.pdf">Nucleo Tipo C</a><br>'
-    var ler4 = '<a href="conexoes/nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a><br>'
-    var ler5 = '<a href="conexoes/sistematinta1240_1280.pdf">Sistema de tinta 1240/1280</a><br>'
-    var ler6 = '<a href="conexoes/sistematinta1580.pdf">Sistema de tinta 1580</a><br>'
-    var ler7 = '<a href="conexoes/sistematinta1860.pdf">Sistema de tinta 1860</a><br>'
-    var ler8 = '<a href="conexoes/sistematinta1880.pdf">Sistema de tinta 1880</a><br>'
-    list.innerHTML = `${ler1} ${ler2} ${ler3} ${ler4} ${ler5} ${ler6} ${ler7} ${ler8}`
+	var ler4 = '<a href="conexoes/sistematinta1040.pdf">Nucleo 1040</a><br>'
+    var ler5 = '<a href="conexoes/nucleo1710.pdf">Nucleo/Sistema de tinta 1710</a><br>'
+    var ler6 = '<a href="conexoes/sistematinta1240_1280.pdf">Sistema de tinta 1240/1280</a><br>'
+    var ler7 = '<a href="conexoes/sistematinta1580.pdf">Sistema de tinta 1580</a><br>'
+    var ler8 = '<a href="conexoes/sistematinta1860.pdf">Sistema de tinta 1860</a><br>'
+    var ler9 = '<a href="conexoes/sistematinta1880.pdf">Sistema de tinta 1880</a><br>'
+    list.innerHTML = `${ler1} ${ler2} ${ler3} ${ler4} ${ler5} ${ler6} ${ler7} ${ler8} ${ler9}`
     
 }
 function conexaoTTO() {
