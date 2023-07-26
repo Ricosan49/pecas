@@ -4,6 +4,10 @@ body {
 .logoA {
    border: black;
 }
+.logoverauto {
+	margin-left: 570px;
+	border-radius: 10px;
+}
 .titulo {
 	font: normal 15pt Arial;
 	font-size: 35px;
