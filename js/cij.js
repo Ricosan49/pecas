@@ -12,12 +12,13 @@ function iniccij() {
     var cijm = '<button name="cij" onclick="manucij()" class="botaodiv">Manual</button>'
     var cijcn = '<button name="cij" onclick="nucleo()" class="botaodiv">Circuito do Nucleo</button>'
     var cijcon = '<button name="cij" onclick="rescon()" class="botaodiv">Conexões</button>'
-    divres.innerHTML = `<p class="adivera">CIJ</p>${cij} ${cijm} ${cijcn} ${cijcon}`
+	var cpcb  = '<button name="cij" onclick="ccpcb()" class="botaodiv">Placas PCBs VJ1000</button>'
+    divres.innerHTML = `<p class="adivera">CIJ</p>${cij} ${cijm} ${cijcn} ${cijcon} ${cpcb}`
 }
 
 function rescij() {
-    var cpcb  = '<button name="cij" onclick="ccpcb()" class="botaodiv">Placas PCBs VJ1000</button>'
-    var c1040 = '<button name="cij" onclick="c1040()" class="botaodiv">1040</button>'
+    
+    var c1040 = `<button name="cij" onclick="pecas('1040')" class="botaodiv">1040</button>`
     var c1210 = '<button name="cij" onclick="c1210()" class="botaodiv">1210</button>'
     var c1220 = '<button name="cij" onclick="c1220()" class="botaodiv">1220</button>'
     var c1240 = '<button name="cij" onclick="c1240()" class="botaodiv">1240</button>'
@@ -38,7 +39,7 @@ function rescij() {
     var c1710 = '<button name="cij" onclick="c1710()" class="botaodiv">1710</button>'
     var c1860 = '<button name="cij" onclick="c1860()" class="botaodiv">1860</button>'
     var c1880 = '<button name="cij" onclick="c1880()" class="botaodiv">1880</button>'
-    divres.innerHTML = `<p class="adivera">Peças CIJ</p>${cpcb} ${c1040} ${c1210} ${c1220} ${c1240} ${c1280} ${c1510} ${c1520} 
+    divres.innerHTML = `<p class="adivera">Peças CIJ</p>${c1040} ${c1210} ${c1220} ${c1240} ${c1280} ${c1510} ${c1520} 
     ${c1530} ${c1560} ${c1580} ${c1610} ${c1620} ${c1000fg} ${c1610dh} ${c1620hr} ${c1620uhs} ${c1650} ${c1650uhs} ${c1710}
     ${c1860} ${c1880}`
     
@@ -47,15 +48,44 @@ function ccpcb() {
     list.innerHTML = ''
     mod.innerHTML = 'Placas PCBs VJ1000<br>'
     divptitulo.innerHTML = ''  
-    var ler0 = '<a  class="advera">PCB 0 - SP500098</a><br>'
-    var ler1 = '<a  class="advera">PCB 1 - SP500095</a><br>'
-    var ler2 = '<a  class="advera">PCB 2 - SP500097</a><br>'
-    var ler3 = '<a  class="advera">PCB 3 - SP500096</a><br>'
-    var ler4 = '<a  class="advera">PCB 5 - SP395605</a>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4}` 
-    
+    var ler0 = `<button  class="botaopcb" onclick="pcb('pcb0')">PCB 0 - SP500098</button><br>`
+    var ler1 = `<button  class="botaopcb" onclick="pcb('pcb1')">PCB 1 - SP500095</button><br>`
+    var ler2 = `<button  class="botaopcb" onclick="pcb('pcb2')">PCB 2 - SP500097</button><br>`
+    var ler3 = `<button  class="botaopcb" onclick="pcb('pcb3')">PCB 3 - SP500096</button><br>`
+    var ler4 = `<button  class="botaopcb" onclick="pcb('pcb5')">PCB 5(somente 1710)</button><br>`
+	var ler5 = `<button  class="botaopcb" onclick="pcb('sensor')">Configurar NPN/PNP</button><br><br>`
+    divptitulo.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}` 
 }
-function c1040() {
+function pcb(tip) {
+		var modelo = tip
+		if(modelo == "pcb0") {
+			list.innerHTML = `<a>PCB 0 - SP500098</a><br><img src="conexoes/PCB0.png" class="listpcb">`
+		}else if(modelo == "pcb1") {
+			list.innerHTML = `<a>PCB 1 - SP500095</a><br><img src="conexoes/PCB1.png" class="listpcb">`
+		}else if(modelo == "pcb2") {
+			list.innerHTML = `<a>PCB 2 - SP500097</a><br><img src="conexoes/PCB2.png" class="listpcb">`
+		}else if(modelo == "pcb3") {
+			list.innerHTML = `<a>PCB 3 - SP500096</a><br><img src="conexoes/PCB3.png" class="listpcb">`
+		}else if(modelo == "pcb5") {
+			list.innerHTML = `<a>PCB 5 - SP395605</a><br><img src="conexoes/PCB5.png" class="listpcb">`
+		}else if(modelo == "sensor") {
+			list.innerHTML = `<a>Configuração de tipo do Sensor da Placa PCB</a><br><img src="conexoes/sensor.png" class="listpcb">`
+		}else {window.alert('ERRO: imagem não encontrada')}
+		
+}
+function pecas(pc) {
+	list.innerHTML = ''
+	var item = pc
+	if(item == "1040") {
+		mod.innerHTML = '1040<br>'
+		divptitulo.innerHTML = 'SP383401 - Filtro Principal de Tinta de  5 microns(Trocar a cada 3.000 hs)'  
+		var ler = '<a href=""><embed src="mq/1040.txt" class="list"></a>'
+		list.innerHTML = ler
+	}else {window.alert('ERRO: Lista não encontrada')}
+}
+    
+
+function ac1040() {
     list.innerHTML = ''
     mod.innerHTML = '1040<br>'
     divptitulo.innerHTML = 'SP383401 - Filtro Principal de Tinta de  5 microns(Trocar a cada 3.000 hs)'  
