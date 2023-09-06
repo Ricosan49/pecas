@@ -89,6 +89,22 @@ body {
 }
 .list {
 	width: 900px;
+	height: 400px;
+	background-color: white;
+	font: normal 18pt Arial;
+}
+.listpcb {
+	width: auto;
 	height: auto;
 	background-color: white;
+	font: normal 18pt Arial;
+}
+.botaopcb {
+	border-color: #D8D8D8;
+	text-align: center;
+	border-radius: 1px;
+	font: normal 15pt Arial;
+	font-size: 15px;
+	width: 150px;
+	background-color:#B0E0E6;
 }
