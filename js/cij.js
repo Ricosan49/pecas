@@ -9,15 +9,12 @@ function iniccij() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var cij = '<button name="cij" onclick="rescij()" class="botaodiv">Peças</button>'
-    var cijm = '<button name="cij" onclick="manucij()" class="botaodiv">Manual</button>'
     var cijcn = '<button name="cij" onclick="nucleo()" class="botaodiv">Circuito do Nucleo</button>'
     var cijcon = '<button name="cij" onclick="rescon()" class="botaodiv">Conexões</button>'
-	var cpcb  = '<button name="cij" onclick="ccpcb()" class="botaodiv">Placas PCBs VJ1000</button>'
-    divres.innerHTML = `<p class="adivera">CIJ</p>${cij} ${cijm} ${cijcn} ${cijcon} ${cpcb}`
+	divres.innerHTML = `<p class="adivera">CIJ</p>${cij} ${cijcn} ${cijcon}`
 }
 
 function rescij() {
-    
     var c1040 = `<button name="cij" onclick="pecas('1040')" class="botaodiv">1040</button>`
     var c1210 = `<button name="cij" onclick="pecas('1210')" class="botaodiv">1210</button>`
     var c1220 = `<button name="cij" onclick="pecas('1220')" class="botaodiv">1220</button>`
@@ -28,6 +25,8 @@ function rescij() {
     var c1530 = `<button name="cij" onclick="pecas('1530')" class="botaodiv">1530</button>`
     var c1560 = `<button name="cij" onclick="pecas('1560')" class="botaodiv">1560</button>`
     var c1580 = `<button name="cij" onclick="pecas('1580')" class="botaodiv">1580</button>`
+	var c1580P = `<button name="cij" onclick="pecas('1580P')" class="botaodiv">1580Plus</button>`
+	var c1580C = `<button name="cij" onclick="pecas('1580C')" class="botaodiv">1580 C</button>`
     var c1610 = `<button name="cij" onclick="pecas('1610')" class="botaodiv">1610</button>`
     var c1620 = `<button name="cij" onclick="pecas('1620')" class="botaodiv">1620</button>`
     var c1000fg = `<button name="cij" onclick="pecas('fg')" class="botaodiv">VJ1000 FG</button>`
@@ -40,38 +39,63 @@ function rescij() {
     var c1860 = `<button name="cij" onclick="pecas('1860')" class="botaodiv">1860</button>`
     var c1880 = `<button name="cij" onclick="pecas('1880')" class="botaodiv">1880</button>`
     divres.innerHTML = `<p class="adivera">Peças CIJ</p>${c1040} ${c1210} ${c1220} ${c1240} ${c1280} ${c1510} ${c1520} 
-    ${c1530} ${c1560} ${c1580} ${c1610} ${c1620} ${c1000fg} ${c1610dh} ${c1620hr} ${c1620uhs} ${c1650} ${c1650uhs} ${c1710}
+    ${c1530} ${c1560} ${c1580} ${c1580P} ${c1580C} ${c1610} ${c1620} ${c1000fg} ${c1610dh} ${c1620hr} ${c1620uhs} ${c1650} ${c1650uhs} ${c1710}
     ${c1860} ${c1880}`
     
 }
-function ccpcb() {
+function nucleo() {
+	divres.innerHTML = ''
     list.innerHTML = ''
-    mod.innerHTML = 'Placas PCBs VJ1000<br>'
+    mod.innerHTML = ''
     divptitulo.innerHTML = ''  
-    var ler0 = `<button  class="botaopcb" onclick="pcb('pcb0')">PCB 0 - SP500098</button><br>`
-    var ler1 = `<button  class="botaopcb" onclick="pcb('pcb1')">PCB 1 - SP500095</button><br>`
-    var ler2 = `<button  class="botaopcb" onclick="pcb('pcb2')">PCB 2 - SP500097</button><br>`
-    var ler3 = `<button  class="botaopcb" onclick="pcb('pcb3')">PCB 3 - SP500096</button><br>`
-    var ler4 = `<button  class="botaopcb" onclick="pcb('pcb5')">PCB 5(somente 1710)</button><br>`
-	var ler5 = `<button  class="botaopcb" onclick="pcb('sensor')">Configurar NPN/PNP</button><br><br>`
-    divptitulo.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}` 
+	var ler1 = `<button class="botaodiv" onclick = "tipnucleo('original')">Nucleo original</button><br>`
+    var ler2 = `<button class="botaodiv" onclick = "tipnucleo('ntb')">Nucleo Tipo B</button><br>`
+    var ler3 = `<button class="botaodiv" onclick = "tipnucleo('ntc')">Nucleo Tipo C</button><br>`
+	var ler4 = `<button class="botaodiv" onclick = "tipnucleo('1040')">Sistema Tinta 1040</button><br>`
+    var ler5 = `<button class="botaodiv" onclick = "tipnucleo('1710')">Nucleo 1710</button><br>`
+    var ler6 = `<button class="botaodiv" onclick = "tipnucleo('4080')">Sistema tinta 1240/1280</button><br>`
+    var ler7 = `<button class="botaodiv" onclick = "tipnucleo('1580')">Sistema tinta 1580</button><br>`
+    var ler8 = `<button class="botaodiv" onclick = "tipnucleo('1860')">Sistema tinta 1860</button><br>`
+    var ler9 = `<button class="botaodiv" onclick = "tipnucleo('1880')">Sistema tinta 1880</button><br>`
+    divres.innerHTML = `<p class="adivera">NUCLEOS</p>${ler1} ${ler2} ${ler3} ${ler4} ${ler5} ${ler6} ${ler7} ${ler8} ${ler9}`
 }
-function pcb(tip) {
-		var modelo = tip
-		if(modelo == "pcb0") {
-			list.innerHTML = `<a>PCB 0 - SP500098</a><br><img src="conexoes/PCB0.png" class="listpcb">`
-		}else if(modelo == "pcb1") {
-			list.innerHTML = `<a>PCB 1 - SP500095</a><br><img src="conexoes/PCB1.png" class="listpcb">`
-		}else if(modelo == "pcb2") {
-			list.innerHTML = `<a>PCB 2 - SP500097</a><br><img src="conexoes/PCB2.png" class="listpcb">`
-		}else if(modelo == "pcb3") {
-			list.innerHTML = `<a>PCB 3 - SP500096</a><br><img src="conexoes/PCB3.png" class="listpcb">`
-		}else if(modelo == "pcb5") {
-			list.innerHTML = `<a>PCB 5 - SP395605</a><br><img src="conexoes/PCB5.png" class="listpcb">`
-		}else if(modelo == "sensor") {
-			list.innerHTML = `<a>Configuração de tipo do Sensor da Placa PCB</a><br><img src="conexoes/sensor.png" class="listpcb">`
-		}else {window.alert('ERRO: imagem não encontrada')}
-		
+function tipnucleo(nu) {
+	var nucleo = nu
+	let pdf = `
+	<style>
+		.tam {
+			height:500px;
+			width: 870px;
+		}
+	</style>`
+	if(nucleo == 'original') {
+		mod.innerHTML = 'Nucleo Original - 6 valvulas<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/NucleoOriginal.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == 'ntb') {
+		mod.innerHTML = 'Nucleo Tipo B - 4 valvulas<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/NucleoTipoB.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == 'ntc') {
+		mod.innerHTML = 'Nucleo Tipo C - 5 valvulas<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/NucleoTipoC.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == '1040') {
+		mod.innerHTML = 'Sistema de tinta 1040<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/sistematinta1040.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == '1710') {
+		mod.innerHTML = 'Nucleo 1710<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/nucleo1710.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == '4080') {
+		mod.innerHTML = 'Sistema de tinta 1240/1280<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/sistematinta1240_1280.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == '1580') {
+		mod.innerHTML = 'Sistema de tinta 1580<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/sistematinta1580.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == '1860') {
+		mod.innerHTML = 'Sistema de tinta 1860<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/sistematinta1860.pdf" class="tam">ola mundo</iframe>`
+	}else if(nucleo == '1880') {
+		mod.innerHTML = 'Sistema de tinta 1880<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/sistematinta1880.pdf" class="tam">ola mundo</iframe>`
+	}else {alert("ERRO - Este item não existe")}
 }
 function pecas(pc) {
 	list.innerHTML = ''
@@ -125,6 +149,16 @@ function pecas(pc) {
 		mod.innerHTML = '1580<br>'
 		divptitulo.innerHTML = '613597 - Modulo de Serviço 1-  c/ Filtro de Tinta e Damper 1580<br>trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio'  
 		var ler = '<a href=""><embed src="./mq/1580.txt" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1580P") {
+		mod.innerHTML = '1580 Plus<br>'
+		divptitulo.innerHTML = '613597 - Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio'  
+		var ler = '<a href=""><embed src="./mq/1580p.txt" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1580C") {
+		mod.innerHTML = '1580 C<br>'
+		divptitulo.innerHTML = '611685 - Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio'  
+		var ler = '<a href=""><embed src="./mq/1580c.txt" class="list"></a>'
 		list.innerHTML = ler
 	}else if(item == "1610") {
 		mod.innerHTML = '1610<br>'
