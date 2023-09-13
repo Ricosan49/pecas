@@ -3,10 +3,11 @@ body {
 	
 }
 .logoA {
-   border: black;
+	border: black;
 }
 .logoverauto {
-	margin-left: 570px;
+	position: absolute;
+	margin: 5px 540px 0px;
 	border-radius: 10px;
 }
 .titulo {
@@ -73,7 +74,7 @@ body {
 .mode {
 	margin-top: -0px;
 	font-family: normal 15pt Arial;
-	font-size: 45px;
+	font-size: 35px;
 }
 .listas {
 	position: absolute;
