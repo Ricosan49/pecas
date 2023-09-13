@@ -1,0 +1,39 @@
+FILTROS	
+611221	Filtro de Ar IP55 - kit c/ 5 elementos de filtros
+611167	Filtro de Flush 1580
+	
+SISTEMA DE TINTA	
+613598	Módulo de Controle de Solvente 1580
+613617	Bomba de Canaleta
+611396	Bomba de Ar Positivo VJ 1580
+611246	Bomba de Tinta VJ 1580
+TBC	Cartucho de 750 ml Vazio para Impressora CIJ 1580
+611149	Filtro Pré-Venturi 1580
+613636	Valvula solenóide do viscosímetro
+613616	Kit de Gaxetas 1580
+613593	Sistema de Tinta Completo 1580
+613585	Kit de Cabos do Sistema de Tinta
+611152	Câmara VMS e Sensor de Temperatura de Tinta
+611153	Tampa Plástica com Ventilador do Sist. Tinta VJ1580
+
+CABEÇOTE	
+399422	Módulo Impressão c/ canhão 60 micra 1580
+399180	Módulo Impressão c/ canhão 70 micra 1580
+399181	Modulo de Válvulas / Aquecedor 1580
+611410	Capa Perfurada do Cabeçote VJ 1580
+399182	Capa do Cabeçote Estandar VJ1580
+613587	Umbilical e Chasis Cabeçote 3 M VJ1580
+613588	Umbilical e Chassis Cabeçote 6 M VJ1580
+
+PLACAS ELETRÔNICAS	
+385774	Módulo de Conexão Wi-FI 1580 C, 1580 + (sem cabeação)
+385775	Módulo de Conexão Celular com Cabeação 1580 C, 1580 +
+611678	Placa Principal MCB Estandar VJ1580 Plus, 1580 C
+611679	Placa Principal MCB IP65 VJ1580 Plus, 1580 C
+613620	Botão Lig/Desl VJ 1580
+613599	Placa IMB do Sistema de Tinta VJ1580
+611564	Fonte de Alimentação PSU VJ1580 Plus, 1580 C
+613615	Conjunto Completo do Display LCD
+613595	Módulo EHT (HV) VJ 1580
+385772	Cartão SD Card da MCB 1580 Plus
+
