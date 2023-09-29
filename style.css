@@ -41,7 +41,7 @@ body {
 .botaodiv {
 	border-color: #D8D8D8;
 	text-align: center;
-	border-radius: 1px;
+	border-radius: 3px;
 	font: normal 15pt Arial;
 	font-size: 15px;
 	width: 150px;
@@ -82,7 +82,7 @@ body {
 	margin-top: -325px;
 	text-align: center;
 	font: normal 15pt Arial;
-	width: 920px;
+	width: 980px;
 	height: auto;
 	background-color: rgb(217, 234, 241);
 	border-radius: 1px;
