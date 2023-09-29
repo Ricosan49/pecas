@@ -68,7 +68,7 @@ function sel(cij) {
 	<style>
 		.tam {
 			height:500px;
-			width: 870px;
+			width: 945px;
 		}
 	</style>`
 	if(ver == "1000") {
@@ -108,9 +108,9 @@ function ccpcb() {
     divres.innerHTML = `<p class="adivera">PCB's</p>${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}` 
 }
 function pcb(tip) {
-		var modelo = tip
-		if(modelo == "pcb0") {
-			list.innerHTML = `<a>PCB 0 - SP500098</a><br><img src="conexoes/PCB0.png" class="listpcb">`
+	var modelo = tip
+	if(modelo == "pcb0") {
+		list.innerHTML = `<a>PCB 0 - SP500098</a><br><img src="conexoes/PCB0.png" class="listpcb">`
 		}else if(modelo == "pcb1") {
 			list.innerHTML = `<a>PCB 1 - SP500095</a><br><img src="conexoes/PCB1.png" class="listpcb">`
 		}else if(modelo == "pcb2") {
@@ -128,40 +128,83 @@ function pcb(tip) {
 function conexaoTTO() {
     list.innerHTML = ''
     mod.innerHTML = 'Conexões TTO<br>'
-    divptitulo.innerHTML = ''  
-    var lerO = '<a href="conexoes/I_O6210 DF+.pdf">I/O 6210</a><br>'
-    var lerB = '<a href="conexoes/I_O6230.pdf">I/O 6230</a><br>'
-    var lerC = '<a href="conexoes/I_O6210 DF+.pdf">I/O DF+ - 6420</a><br>'
-    var lerD = '<a href="conexoes/I_O6330 6530.pdf">I/O 6330/6530</a>'
-    list.innerHTML = `${lerO} ${lerB} ${lerC} ${lerD}`
-    
+    divptitulo.innerHTML = ''
+    var lerO = `<button  class="botaodiv" onclick="tto('6210')">6210</button><br>`
+    var lerB = `<button  class="botaodiv" onclick="tto('6230')">6230</button><br>`
+    var lerC = `<button  class="botaodiv" onclick="tto('6420')">DF+ e 6420</button><br>`
+    var lerD = `<button  class="botaodiv" onclick="tto('6330')">6330 e 6530</button><br>`
+	divres.innerHTML = `<p class="adivera">Conexões</p>${lerO} ${lerB} ${lerC} ${lerD}`
+}
+function tto(tip) {
+	var modelo = tip
+	let pdf = `
+	<style>
+		.tam {
+			height:500px;
+			width: 945px;
+		}
+	</style>`	
+	if(modelo == "6210") {
+		mod.innerHTML = 'Conexões 6210<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_O6210 DF+.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "6230") {
+		mod.innerHTML = 'Conexões 6230<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_O6230.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "6420") {
+		mod.innerHTML = 'Conexões DF+ e 6420<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_O6210 DF+.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "6330") {
+		mod.innerHTML = 'Conexões 6330 e 6530<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_O6330 6530.pdf" class="tam">ola mundo</iframe>`
+	}else {window.alert('ERRO: imagem não encontrada')}
 }
 function conexaolcm() {
     list.innerHTML = ''
     mod.innerHTML = 'Conexões LCM<br>'
     divptitulo.innerHTML = ''  
-    var lerO = '<a href="conexoes/I_O2300.pdf">I/O 2300</a><br>'
+    var lerO = `<button  class="botaodiv" onclick="lcm()">2300</button><br>`
     list.innerHTML = `${lerO}`
     
 }
-function conexaolaser() {
-    list.innerHTML = ''
-    mod.innerHTML = 'Conexões LCM<br>'
-    divptitulo.innerHTML = ''  
-    var lerO = '<a href="conexoes/I_O3120 3320.pdf">I/O 3120/3320/3130/3330</a><br>'
-    var lerA = '<a href="conexoes/I_O3140 3340.pdf">I/O 3140/3340</a><br>'
-    var lerB = '<a href="conexoes/I_OX9seg3140 3340.pdf">I/O conector X9 3140/3340</a><br>'
-    list.innerHTML = `${lerO} ${lerA} ${lerB}`
-    
+function lcm() {
+	let pdf = `
+	<style>
+		.tam {
+			height:500px;
+			width: 945px;
+		}
+	</style>`	
+		mod.innerHTML = 'Conexões 2300<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_O2300.pdf" class="tam">ola mundo</iframe>`
 }
 function conexaotij() {
     list.innerHTML = ''
     mod.innerHTML = 'Conexões TIJ<br>'
     divptitulo.innerHTML = ''  
-    var lerO = '<a href="conexoes/I_OM600.pdf">I/O M600</a><br>'
-    var lerA = '<a href="conexoes/I_O8510.pdf">I/O 8510/8520</a><br>'
-    var lerB = '<a href="conexoes/I_O8510.pdf">I/O 8610</a><br>'
-    list.innerHTML = `${lerO} ${lerA} ${lerB}`
+    var lerO = `<button  class="botaodiv" onclick="tij('600')">M600</button><br>`
+    var lerA = `<button  class="botaodiv" onclick="tij('8510')">8510/8520</button><br>`
+    var lerB = `<button  class="botaodiv" onclick="tij('8610')">8610</button><br>`
+    divres.innerHTML = `<p class="adivera">Conexões</p>${lerO} ${lerA} ${lerB}`
     
+}
+function tij(tip) {
+	var modelo = tip
+	let pdf = `
+	<style>
+		.tam {
+			height:500px;
+			width: 945px;
+		}
+	</style>`	
+	if(modelo == "600") {
+		mod.innerHTML = 'Conexões M600<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_OM600.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "8510") {
+		mod.innerHTML = 'Conexões 8510/8520<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_O8510.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "8610") {
+		mod.innerHTML = 'Conexões 8610<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/I_O8610.pdf" class="tam">ola mundo</iframe>`
+	}else {window.alert('ERRO: imagem não encontrada')}
 }
 

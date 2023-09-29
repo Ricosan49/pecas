@@ -8,9 +8,8 @@ function inictto() {
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
     var tto = '<button name="cij" onclick="restto()" class="botaodiv">Peças</button>'
-    var ttom = '<button name="cij" onclick="()" class="botaodiv">Manual</button>'
     var ttocon = '<button name="cij" onclick="conexaoTTO()" class="botaodiv">Conexões</button>'
-    divres.innerHTML = `<p class="adivera">TTO</p>${tto} ${ttom} ${ttocon}`
+    divres.innerHTML = `<p class="adivera">TTO</p>${tto} ${ttocon}`
 }
 
 function restto() {
@@ -28,95 +27,150 @@ function restto() {
     divres.innerHTML = `<p class="adivera">Peças TTO</p>${c6210} ${cdfp} ${c632032} ${c632053} ${c642053} ${c6420107} ${c6230} 
     ${c633032} ${c633053} ${c653053} ${c6530107}`
     
-}
+  }
 function c6210() {
     list.innerHTML = ''
     mod.innerHTML = '6210<br>'
     divptitulo.innerHTML = '403325	CABECA DE IMPRESSAO 32MM 6210-TTO<br>403330-UN  - CORREIA DENTADA VJ6210<br>'  
-    var ler = '<a href="tto/6210i.pdf" class="advera">Peças Ilustradas 6210</a><br><a href="tto/6210IPB.pdf" class="advera">Peças IPB</a>'
-    list.innerHTML = ler
-    
+    var ler = `
+		<button  class="botaodiv" onclick="modelo('6210a')">Peças Ilustradas</button><br>
+		<button  class="botaodiv" onclick="modelo('6210b')">Peças IPB</button><br>`
+	list.innerHTML = ler
 }
 function cdfp() {
     list.innerHTML = ''
     mod.innerHTML = 'DATAFLEX PLUS<br>'
-    divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO DATAFLEX+ 53MM<br>216585 - CABEÇA DF+ 107mm<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  53MMX107MM<br>'  
-    var ler = '<a href="tto/dfpi.pdf" class="advera">Peças Ilustradas DF+</a><br><a href="tto/dfpIPB.pdf" class="advera">Peças DF+ IPB</a>'
+    divptitulo.innerHTML = '215984 - Cabeça DF+ 53MM<br>216585 - Cabeça DF+ 107mm<br>216037-UN - Correia DF+<br>'  
+    var ler = `
+		<button  class="botaodiv" onclick="modelo('dfpi')">Peças Ilustradas</button><br>
+		<button  class="botaodiv" onclick="modelo('dfpIPB')">Peças IPB</button><br>`
     list.innerHTML = ler
-    
 }
 function c632032() {
     list.innerHTML = ''
     mod.innerHTML = '6320 Cabeça 32mm<br>'
-    divptitulo.innerHTML = '403325 - CABECA DE IMPRESSAO 32MM 6320-TTO<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  32MM<br>'
-    var ler = '<a href="tto/6320IPB.pdf" class="advera">Peças 6320 cabeça de 32mm</a>'
+    divptitulo.innerHTML = '403325 - CABECA DE IMPRESSAO 32MM 6320-TTO<br>216037-UN - CORREIA DA CABECA 32MM<br>'
+    var ler = `<button  class="botaodiv" onclick="modelo('632032')">Peças Ilustradas</button><br>`
     list.innerHTML = ler
-    
 }
 function c632053() {
     list.innerHTML = ''
     mod.innerHTML = '6320 Cabeça 53mm<br>'
-    divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO 53MM 6320-TTO<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  53MM<br>'  
-    var ler = '<a href="tto/6320IPB.pdf" class="advera">Peças 6320 cabeça de 53mm</a>'
+    divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO 53MM 6320-TTO<br>216037-UN - CORREIA DA CABECA 53MM<br>'  
+    var ler = `<button  class="botaodiv" onclick="modelo('632032')">Peças Ilustradas</button><br>`
     list.innerHTML = ler
-    
 }
 function c642053() {
     list.innerHTML = ''
     mod.innerHTML = '6420 Cabeça 53mm<br>'
-    divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO 53MM 6320-TTO<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  53MM<br>'  
-    var ler = '<a href="tto/6420IPB.pdf" class="advera">Peças 6420 cabeça de 53mm</a>'
+    divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO 53MM 6420-TTO<br>216037-UN - CORREIA DA CABECA  53MM<br>'  
+    var ler = `<button  class="botaodiv" onclick="modelo('642053')">Peças Ilustradas</button><br>`
     list.innerHTML = ler
-    
 }
 function c6420107() {
     list.innerHTML = ''
     mod.innerHTML = '6420 Cabeça 107mm<br>'
-    divptitulo.innerHTML = '216585	CABECA DE IMPRESSAO 107MM 6420-TTO<br>216037-UN - CORREIA DENTADA DA CABECA DE IMPRESSAO  53MM<br>'  
-    var ler = '<a href="tto/6420IPB.pdf" class="advera">Peças 6420 cabeça de 107mm</a>'
+    divptitulo.innerHTML = '216585 - CABECA DE IMPRESSAO 107MM 6420-TTO<br>216037-UN - CORREIA CABECA DE IMPRESSAO 107MM<br>'  
+    var ler = `<button  class="botaodiv" onclick="modelo('6420107')">Peças Ilustradas</button><br>`
     list.innerHTML = ler
-    
 }
 function c6230() {
     list.innerHTML = ''
     mod.innerHTML = '6230<br>'
     divptitulo.innerHTML = '408300 - CABECA DE IMPRESSAO DE 32MM 6230-TTO<br>408298 - CORREA  6230 (5 UNIDADES)<br>'  
-    var ler1 = '<a href="tto/6230.pdf" class="advera">Peças 6230 lista</a></br>'
-    var ler2 = '<a href="tto/IPB 6230.pdf" class="advera">Peças 6230 Ilustrada</a>'
+    var ler1 = `<button  class="botaodiv" onclick="modelo('6230l')">Peças Lista</button><br>`
+    var ler2 = `<button  class="botaodiv" onclick="modelo('6230i')">Peças Ilustradas</button><br>`
     list.innerHTML = `${ler1} ${ler2}`
-    
 }
 function c633032() {
     list.innerHTML = ''
     mod.innerHTML = '6330 cabeça 32mm<br>'
     divptitulo.innerHTML = '408657 - CABECA DE IMPRESSAO 32MM 6330-TTO<br>407931 - CORREIA   6330-TTO<br>'  
-    var ler1 = '<a href="tto/6330.pdf" class="advera">Peças 6330 cabeça 32mm</a></br>'
-    list.innerHTML = ler1
-    
+	var ler0 = `<button  class="botaodiv" onclick="modelo('633032l')">Peças Lista</button><br>`
+    //var ler1 = `<button  class="botaodiv" onclick="modelo('633032i')">Peças Ilustradas</button><br>`
+    list.innerHTML = ler0
 }
 function c633053() {
     list.innerHTML = ''
     mod.innerHTML = '6330 cabeça 53mm<br>'
-    divptitulo.innerHTML = '407933 - CABECA DE IMPRESSAO 53MM 6330-TTO<br>407931 - CORREIA   6330-TTO<br>'  
-    var ler1 = '<a href="tto/6330.pdf" class="advera">Peças 6330 cabeça 53mm lista</a></br>'
-    var ler2 = '<a href="tto/IPB 6330 53 Illustration.pdf" class="advera">Peças 6330 cabeça 53mm Ilustrada</a>'
+    divptitulo.innerHTML = '407933 - CABECA DE IMPRESSAO 53MM 6330-TTO<br>407931 - CORREIA 6330-TTO<br>'  
+    var ler1 = `<button  class="botaodiv" onclick="modelo('633053l')">Peças Lista</button><br>`
+    var ler2 = `<button  class="botaodiv" onclick="modelo('633053i')">Peças Ilustrada</button><br>`
     list.innerHTML = `${ler1} ${ler2}`
-    
 }
 function c653053() {
     list.innerHTML = ''
     mod.innerHTML = '6530 cabeça 53mm<br>'
     divptitulo.innerHTML = '407933 - CABECA DE IMPRESSAO 53MM 6530-TTO<br>407931 - CORREIA   6330-TTO<br>'  
-    var ler = '<a href="tto/6530.pdf" class="advera">Peças 6530 cabeça 53mm</a>'
+    var ler = `<button  class="botaodiv" onclick="modelo('653053l')">Peças Lista</button><br>`
     list.innerHTML = ler
-    
 }
 function c6530107() {
     list.innerHTML = ''
     mod.innerHTML = '6530 cabeça 107mm<br>'
     divptitulo.innerHTML = '408554 - CABECA DE IMPRESSAO 107MM 6530-TTO<br>408677 - CORREIA   6530-TTO<br>'  
-    var ler1 = '<a href="tto/6530.pdf" class="advera">Peças 6530 cabeça 107mm lista</a></br>'
-    var ler2 = '<a href="tto/IPB 6530 107 Illustration.pdf" class="advera">Peças 6530 cabeça 107mm ilustrada</a>'
+    var ler1 = `<button  class="botaodiv" onclick="modelo('6530107l')">Peças Lista</button><br>`
+    var ler2 = `<button  class="botaodiv" onclick="modelo('6530107i')">Peças Ilustrada</button><br>`
     list.innerHTML = `${ler1} ${ler2}`
-    
+}
+function modelo(tto) {
+	let pdf = `
+	<style>
+		.tam {
+			height:500px;
+			width: 870px;
+		}
+	</style>`
+	list.innerHTML = ''
+    divptitulo.innerHTML = ''
+	var ttoo = tto
+	if(ttoo == '6210a') {
+		mod.innerHTML = '6210'
+		list.innerHTML = pdf+`<iframe src="tto/6210i.pdf" class="tam"></iframe>`
+	}else if(ttoo == '6210b') {
+		mod.innerHTML = '6210'
+		list.innerHTML = pdf+`<iframe src="tto/6210IPB.pdf" class="tam"></iframe>`
+	}else if(ttoo == 'dfpi') {
+		mod.innerHTML = 'DATAFLEX PLUS'
+		list.innerHTML = pdf+`<iframe src="tto/dfpi.pdf" class="tam"></iframe>`
+	}else if(ttoo == 'dfpIPB') {
+		mod.innerHTML = 'DATAFLEX PLUS'
+		list.innerHTML = pdf+`<iframe src="tto/dfpIPB.pdf" class="tam"></iframe>`
+	}else if(ttoo == '632032') {
+		mod.innerHTML = '6320 Cabeça 32mm'
+		list.innerHTML = pdf+`<iframe src="tto/6320IPB.pdf" class="tam"></iframe>`
+	}else if(ttoo == '632053') {
+		mod.innerHTML = '6320 Cabeça 53mm'
+		list.innerHTML = pdf+`<iframe src="tto/6320IPB.pdf" class="tam"></iframe>`
+	}else if(ttoo == '642053') {
+		mod.innerHTML = '6420 Cabeça 53mm'
+		list.innerHTML = pdf+`<iframe src="tto/6420IPB.pdf" class="tam"></iframe>`
+	}else if(ttoo == '6420107') {
+		mod.innerHTML = '6420 Cabeça 107mm'
+		list.innerHTML = pdf+`<iframe src="tto/6420IPB.pdf" class="tam"></iframe>`
+	}else if(ttoo == '6230l') {
+		mod.innerHTML = '6230'
+		list.innerHTML = pdf+`<iframe src="tto/6230list.pdf" class="tam"></iframe>`
+	}else if(ttoo == '6230i') {
+		mod.innerHTML = '6230'
+		list.innerHTML = pdf+`<iframe src="tto/IPB 6230.pdf" class="tam"></iframe>`
+	}else if(ttoo == '633032l') {
+		mod.innerHTML = '6330 Cabeça 32mm'
+		list.innerHTML = pdf+`<iframe src="tto/6330 32_53 List.pdf" class="tam"></iframe>`
+	}else if(ttoo == '633053l') {
+		mod.innerHTML = '6330 Cabeça 53mm'
+		list.innerHTML = pdf+`<iframe src="tto/6330 32_53 List.pdf" class="tam"></iframe>`
+	}else if(ttoo == '633053i') {
+		mod.innerHTML = '6330 Cabeça 53mm'
+		list.innerHTML = pdf+`<iframe src="tto/633053IPB.pdf" class="tam"></iframe>`
+	}else if(ttoo == '653053l') {
+		mod.innerHTML = '6330 Cabeça 53mm'
+		list.innerHTML = pdf+`<iframe src="tto/653053_107l.pdf" class="tam"></iframe>`
+	}else if(ttoo == '6530107l') {
+		mod.innerHTML = '6330 Cabeça 107mm'
+		list.innerHTML = pdf+`<iframe src="tto/653053_107l.pdf" class="tam"></iframe>`
+	}else if(ttoo == '6530107i') {
+		mod.innerHTML = '6330 Cabeça 107mm'
+		list.innerHTML = pdf+`<iframe src="tto/6530107IPB.pdf" class="tam"></iframe>`
+	}else {alert('ERRO - Este item não existe')}
 }
