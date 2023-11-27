@@ -54,7 +54,7 @@ function lenteco2(tipo) {
 		divptitulo.innerHTML = ''  
 		list.innerHTML = pdf+`<iframe src="laser/lenteprev.pdf" class="tam"></iframe>`
 	}else if(len == "medi") {
-		mod.innerHTML = 'Medidas<br>'
+		mod.innerHTML = 'Medidas / Codigos<br>'
 		divptitulo.innerHTML = '' 
 		list.innerHTML = pdf+`<iframe src="laser/lentesmedidasco2.pdf" class="tam"</iframe>`
 	}else if(len == "tipo") {
