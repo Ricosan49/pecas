@@ -36,7 +36,7 @@ function lentesco2() {
     mod.innerHTML = 'Lentes CO2<br>'
     divptitulo.innerHTML = ''  
     var tip = `<button onclick='lenteco2("tipo")' class="botaodiv">Tipo da Lente</button>`
-    var med = `<button onclick='lenteco2("medi")' class="botaodiv">Medidas Lente</button>`
+    var med = `<button onclick='lenteco2("medi")' class="botaodiv">Medidas/Codigos Lente</button>`
     var limp = `<button onclick='lenteco2("prev")' class="botaodiv">Preventiva Lente</button>`
     divres.innerHTML = `<p class="adivera">Lentes CO2</p>${tip} ${med} ${limp}`
 }
