@@ -181,10 +181,13 @@ function conexaotij() {
     list.innerHTML = ''
     mod.innerHTML = 'Conexões TIJ<br>'
     divptitulo.innerHTML = ''  
-    var lerO = `<button  class="botaodiv" onclick="tij('600')">M600</button><br>`
+    var lerc = `<button onclick='tij("600adv")' class="botaodiv">M600 Advanced</button>`
+	var lerd = `<button onclick='tij("600oem")' class="botaodiv">M600 OEM</button>`
+	var lere = `<button onclick='tij("610adv")' class="botaodiv">M610 Advenced</button>`
+	var lerf = `<button onclick='tij("610oem")' class="botaodiv">M610 OEM</button>`
     var lerA = `<button  class="botaodiv" onclick="tij('8510')">8510/8520</button><br>`
     var lerB = `<button  class="botaodiv" onclick="tij('8610')">8610</button><br>`
-    divres.innerHTML = `<p class="adivera">Conexões</p>${lerO} ${lerA} ${lerB}`
+    divres.innerHTML = `<p class="adivera">Conexões</p>${lerc} ${lerd} ${lere} ${lerf} ${lerA} ${lerB}`
     
 }
 function tij(tip) {
@@ -196,15 +199,24 @@ function tij(tip) {
 			width: 945px;
 		}
 	</style>`	
-	if(modelo == "600") {
-		mod.innerHTML = 'Conexões M600<br>'
-		list.innerHTML = pdf+`<iframe src="conexoes/I_OM600.pdf" class="tam">ola mundo</iframe>`
+	if(modelo == "600adv") {
+		mod.innerHTML = 'Conexões M600 ADV<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/m600advIO.pdf" class="tam">ola mundo</iframe>`
 	}else if(modelo == "8510") {
 		mod.innerHTML = 'Conexões 8510/8520<br>'
 		list.innerHTML = pdf+`<iframe src="conexoes/I_O8510.pdf" class="tam">ola mundo</iframe>`
 	}else if(modelo == "8610") {
 		mod.innerHTML = 'Conexões 8610<br>'
 		list.innerHTML = pdf+`<iframe src="conexoes/I_O8610.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "600oem") {
+		mod.innerHTML = 'Conexões M600 OEM<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/m600oemIO.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "610adv") {
+		mod.innerHTML = 'Conexões M610 ADV<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/m610advIO.pdf" class="tam">ola mundo</iframe>`
+	}else if(modelo == "610oem") {
+		mod.innerHTML = 'Conexões M610 OEM<br>'
+		list.innerHTML = pdf+`<iframe src="conexoes/m610oemIO.pdf" class="tam">ola mundo</iframe>`
 	}else {window.alert('ERRO: imagem não encontrada')}
 }
 
