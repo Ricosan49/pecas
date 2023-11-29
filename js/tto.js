@@ -125,52 +125,52 @@ function modelo(tto) {
     divptitulo.innerHTML = ''
 	var ttoo = tto
 	if(ttoo == '6210a') {
-		mod.innerHTML = '6210'
+		mod.innerHTML = '6210<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6210i.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6210b') {
-		mod.innerHTML = '6210'
+		mod.innerHTML = '6210<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6210IPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == 'dfpi') {
-		mod.innerHTML = 'DATAFLEX PLUS'
+		mod.innerHTML = 'DATAFLEX PLUS<br>'
 		list.innerHTML = pdf+`<iframe src="tto/dfpi.pdf" class="tam"></iframe>`
 	}else if(ttoo == 'dfpIPB') {
-		mod.innerHTML = 'DATAFLEX PLUS'
+		mod.innerHTML = 'DATAFLEX PLUS<br>'
 		list.innerHTML = pdf+`<iframe src="tto/dfpIPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == '632032') {
-		mod.innerHTML = '6320 Cabeça 32mm'
+		mod.innerHTML = '6320 Cabeça 32mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6320IPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == '632053') {
-		mod.innerHTML = '6320 Cabeça 53mm'
+		mod.innerHTML = '6320 Cabeça 53mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6320IPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == '642053') {
-		mod.innerHTML = '6420 Cabeça 53mm'
+		mod.innerHTML = '6420 Cabeça 53mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6420IPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6420107') {
-		mod.innerHTML = '6420 Cabeça 107mm'
+		mod.innerHTML = '6420 Cabeça 107mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6420IPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6230l') {
-		mod.innerHTML = '6230'
+		mod.innerHTML = '6230<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6230list.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6230i') {
-		mod.innerHTML = '6230'
+		mod.innerHTML = '6230<br>'
 		list.innerHTML = pdf+`<iframe src="tto/IPB 6230.pdf" class="tam"></iframe>`
 	}else if(ttoo == '633032l') {
-		mod.innerHTML = '6330 Cabeça 32mm'
+		mod.innerHTML = '6330 Cabeça 32mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6330 32_53 List.pdf" class="tam"></iframe>`
 	}else if(ttoo == '633053l') {
-		mod.innerHTML = '6330 Cabeça 53mm'
+		mod.innerHTML = '6330 Cabeça 53mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6330 32_53 List.pdf" class="tam"></iframe>`
 	}else if(ttoo == '633053i') {
-		mod.innerHTML = '6330 Cabeça 53mm'
+		mod.innerHTML = '6330 Cabeça 53mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/633053IPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == '653053l') {
-		mod.innerHTML = '6330 Cabeça 53mm'
+		mod.innerHTML = '6330 Cabeça 53mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/653053_107l.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6530107l') {
-		mod.innerHTML = '6330 Cabeça 107mm'
+		mod.innerHTML = '6330 Cabeça 107mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/653053_107l.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6530107i') {
-		mod.innerHTML = '6330 Cabeça 107mm'
+		mod.innerHTML = '6330 Cabeça 107mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6530107IPB.pdf" class="tam"></iframe>`
 	}else {alert('ERRO - Este item não existe')}
 }
