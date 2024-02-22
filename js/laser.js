@@ -20,6 +20,8 @@ function reslaser() {
     var r3x20 = '<button onclick="lasers(3320)" class="botaodiv">3120/3320</button>'
     var r3x30 = '<button onclick="lasers(3330)" class="botaodiv">3130/3330</button>'
     var r3x40 = '<button onclick="lasers(3640)" class="botaodiv">3140/3340/3640</button>'
+	var r3210 = '<button onclick="lasers(3210)" class="botaodiv">3210</button>'
+	var r3350 = '<button onclick="lasers(3350)" class="botaodiv">3350</button>'
     var f7220 = '<button onclick="lasers(7320)" class="botaodiv">7220 - 7320</button>'
 	var f7210 = '<button onclick="lasers(7310)" class="botaodiv">7210 - 7310</button>'
 	var f7230 = '<button onclick="lasers(7330)" class="botaodiv">7230 - 7330</button>'
@@ -27,7 +29,7 @@ function reslaser() {
 	var f7510 = '<button onclick="lasers(7510)" class="botaodiv">7510</button>'
 	var f7610 = '<button onclick="lasers(7610)" class="botaodiv">7610</button>'
 	var f7810 = '<button onclick="lasers(7810)" class="botaodiv">7810</button>'
-    divres.innerHTML = `<p class="adivera">Peças LASERS</p>${r30x0} ${r3x20} ${r3x30} ${r3x40} ${f7220}
+    divres.innerHTML = `<p class="adivera">Peças LASERS</p>${r30x0} ${r3x20} ${r3x30} ${r3x40} ${r3210} ${r3350} ${f7220}
 	${f7230} ${f7210} ${f7340} ${f7510} ${f7610} ${f7810}`
     
 }
@@ -36,7 +38,7 @@ function lentesco2() {
     mod.innerHTML = 'Lentes CO2<br>'
     divptitulo.innerHTML = ''  
     var tip = `<button onclick='lenteco2("tipo")' class="botaodiv">Tipo da Lente</button>`
-    var med = `<button onclick='lenteco2("medi")' class="botaodiv">Medidas/Codigos Lente</button>`
+    var med = `<button onclick='lenteco2("medi")' class="botaodiv">Medidas Lente</button>`
     var limp = `<button onclick='lenteco2("prev")' class="botaodiv">Preventiva Lente</button>`
     divres.innerHTML = `<p class="adivera">Lentes CO2</p>${tip} ${med} ${limp}`
 }
@@ -54,7 +56,7 @@ function lenteco2(tipo) {
 		divptitulo.innerHTML = ''  
 		list.innerHTML = pdf+`<iframe src="laser/lenteprev.pdf" class="tam"></iframe>`
 	}else if(len == "medi") {
-		mod.innerHTML = 'Medidas / Codigos<br>'
+		mod.innerHTML = 'Medidas<br>'
 		divptitulo.innerHTML = '' 
 		list.innerHTML = pdf+`<iframe src="laser/lentesmedidasco2.pdf" class="tam"</iframe>`
 	}else if(len == "tipo") {
@@ -104,6 +106,14 @@ function lasers(tipo) {
 		mod.innerHTML = '3140/3340/3640'
 		divptitulo.innerHTML =''
 		list.innerHTML = pdf+`<iframe src="laser/3x40.pdf" class="tam"></iframe>`
+	}else if(conecta == "3210") {
+		mod.innerHTML = '3210'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="laser/3210.pdf" class="tam"></iframe>`
+	}else if(conecta == "3350") {
+		mod.innerHTML = '3350'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="laser/3350.pdf" class="tam"></iframe>`
 	}else if(conecta == "7320") {
 		mod.innerHTML = '7220 - 7320'
 		divptitulo.innerHTML =''
