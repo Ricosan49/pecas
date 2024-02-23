@@ -234,7 +234,7 @@ function supo(tipo) {
 	}else if(supor == "cxfiltro") {
 		mod.innerHTML = 'Caixa Nacional Pre-Filtro para Extrator</br>'
 		divptitulo.innerHTML ='Codigo: WBZ0003142 - Caixa Pre Filtro com 3 filtros de tela metalica para extrator de fumos'
-		list.innerHTML = pdf+`<iframe src="acessorios/cxprefiltroestrator.PDF" class="tam">ola mundo</iframe>`
+		list.innerHTML = pdf+`<iframe src="acessorios/cxprefiltroestrator.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "kitlimp") {
 		mod.innerHTML = 'Kit Limpeza LCM Completo</br>'
 		divptitulo.innerHTML ='Codigo: 36481 - KIT DE LIMPEZA LCM'
