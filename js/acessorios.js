@@ -8,92 +8,256 @@ function acesso() {
     list.innerHTML = ''
     mod.innerHTML = ''
     divptitulo.innerHTML = ''
-    var acesso1 = '<button  onclick="acessocij()" class="botaodiv">CIJ</button>'
-    var acesso2 = '<button  onclick="acessotto()" class="botaodiv">TTO</button>'
-    var acesso3 = '<button  onclick="acessolcm()" class="botaodiv">LCM</button>'
-    var acesso4 = '<button  onclick="acessolpa()" class="botaodiv">LPA</button>'
-    var acesso5 = '<button  onclick="acessotij()" class="botaodiv">TIJ</button>'
-    var acesso6 = '<button  onclick="acessolaser()" class="botaodiv">LASER</button>'
-    divres.innerHTML = `<p class="adivera">Acessórios</p>${acesso1} ${acesso2} ${acesso3} ${acesso4} ${acesso5} ${acesso6}`
+    var acesso1 = `<button  onclick='ace("sen")' class="botaodiv">Sensores</button>`
+	var acesso2 = `<button  onclick='ace("enc")' class="botaodiv">Encoders</button>`
+	var acesso3 = `<button  onclick='ace("al")' class="botaodiv">Alarmes</button>`
+	var acesso4 = `<button  onclick='ace("sup")' class="botaodiv">Suportes</button>`
+	var acesso5 = `<button  onclick='ace("acessocij")' class="botaodiv">CIJ</button>`
+	var acesso6 = `<button  onclick='ace("acesstto")' class="botaodiv">TTO</button>`
+	var acesso7 = `<button  onclick='ace("acesslcm")' class="botaodiv">LCM</button>`
+	var acesso8 = `<button  onclick='ace("laser")' class="botaodiv">Laser</button>`
+	var acesso9 = `<button  onclick='ace("")' class="botaodiv">TIJ</button>`
+	var acesso10 = `<button  onclick='ace("lpa")' class="botaodiv">LPA</button>`
+	divres.innerHTML = `<p class="adivera">Acessórios</p>${acesso1} ${acesso2} ${acesso3} ${acesso4}
+	${acesso5} ${acesso6} ${acesso7} ${acesso8} ${acesso9} ${acesso10}`
 }
-function acessocij() {
-    list.innerHTML = ''
-    mod.innerHTML = 'Acessorios CIJ<br>'
-    divptitulo.innerHTML = ''  
-    var ler0 = '<a  href="acessorios/accessorioscij.pdf" class="advera" >Diversos CIJ</a><br>'
-    var ler1 = '<a  href="acessorios/sensorescij.pdf" class="advera" >Sensor CIJ</a><br>'
-    var ler2 = '<a  href="acessorios/suportecij.pdf" class="advera" >Suporte CIJ</a><br>'
-    var ler3 = '<a  href="acessorios/encodercij.pdf" class="advera" >Encoder CIJ</a><br>'
-    var ler4 = '<a  href="acessorios/resfriadorCooler.pdf" class="advera" >Resfriador Cooler</a><br>'
-    var ler5 = '<a  href="acessorios/conectoresdin.pdf" class="advera" >Conectores DIN</a><br>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}` 
+function ace(tipo) {
+    var aces = tipo
+	let pdf = `
+	<style>
+		.tam {
+			height:480px;
+			width: 950px;
+		}
+	</style>`
+	if(aces == "sen") {
+		mod.innerHTML = 'Sensores<br>'
+		divptitulo.innerHTML = ''  
+		list.innerHTML = pdf+`<iframe src="acessorios/sensorestodos.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "enc") {
+		mod.innerHTML = 'Encoders'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/encodergeral.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "al") {
+		mod.innerHTML = 'Alarmes'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/alarme.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "sup") {
+		mod.innerHTML = 'Suportes</br>'
+		list.innerHTML = ''
+		divptitulo.innerHTML =`
+		<button  onclick='supo("cij")' class="botaodiv">CIJ</button></br>
+		<button  onclick='supo("tto")' class="botaodiv">TTO</button></br>
+		<button  onclick='supo("laser")' class="botaodiv">LASER</button></br>
+		<button  onclick='supo("lcm")' class="botaodiv">LCM 2300</button></br>
+		<button  onclick='supo("lcm2120")' class="botaodiv">LCM 2120</button></br>
+		<button  onclick='supo("uni")' class="botaodiv">Unicorn</button></br>`
+		
+	}else if(aces == "listfop") {
+		mod.innerHTML = 'Lista completa FOP'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/9550fop.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "pct9") {
+		mod.innerHTML = 'Vista TAMP'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/9550300TTamp.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "p34") {
+		mod.innerHTML = 'LPA P3400'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/P3400.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "ze5") {
+		mod.innerHTML = 'Modulo Impressor ZE500'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/ze500.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "210") {
+		mod.innerHTML = 'Aplicadora 210'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/210.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "k2") {
+		mod.innerHTML = 'Aplicadora Ketan K200'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/K200.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "con9") {
+		mod.innerHTML = 'Conexões 9550'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/9550conexao.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "conp") {
+		mod.innerHTML = 'Conexões P3400'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/P34IO.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "con210") {
+		mod.innerHTML = 'Conexoes 210'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/210conexao.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "conk") {
+		mod.innerHTML = 'Conexões K200'
+		divptitulo .innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/k200IO.pdf" class="tam">ola mundo</iframe>`
+	}else if(aces == "acessocij") {
+		mod.innerHTML = 'Acessorios</br>'
+		list.innerHTML = ''
+		divptitulo.innerHTML =`
+		<button  onclick='supo("resfri")' class="botaodiv">Resfriador</button></br>
+		<button  onclick='supo("mesaperf")' class="botaodiv">Mesa CIJ Perfil</button></br>
+		<button  onclick='supo("capaprot")' class="botaodiv">Capa de proteção</button></br>
+		<button  onclick='supo("umbi")' class="botaodiv">Umbilical VJ1000</button></br>
+		<button  onclick='supo("umbis")' class="botaodiv">Umbilical Simplicity</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>`
+		
+	}else if(aces == "acesstto") {
+		mod.innerHTML = 'Acessorios TTO</br>'
+		list.innerHTML = ''
+		divptitulo.innerHTML =`
+		<button  onclick='supo("reg")' class="botaodiv">Regulador de Pressão</button></br>
+		<button  onclick='supo("mao")' class="botaodiv">Mão da TTO</button></br>
+		<button  onclick='supo("velo")' class="botaodiv">Velocidade Maxima TTO</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>`
+		
+	}else if(aces == "laser") {
+		mod.innerHTML = 'Acessorios</br>'
+		list.innerHTML = ''
+		divptitulo.innerHTML =`
+		<button  onclick='supo("hand")' class="botaodiv">Handheld</button></br>
+		<button  onclick='supo("medidorpotpq")' class="botaodiv">Medidor de Potência pequeno CO2</button></br>
+		<button  onclick='supo("medidorpotyag")' class="botaodiv">Medidor de Potência Fibra/CO2/YAG</button></br>
+		<button  onclick='supo("cxfiltro")' class="botaodiv">Caixa Nacional Pre-Filtro para Extrator</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>`
+		
+	}else if(aces == "acesslcm") {
+		mod.innerHTML = 'Acessorios TTO</br>'
+		list.innerHTML = ''
+		divptitulo.innerHTML =`
+		<button  onclick='supo("kitlimp")' class="botaodiv">Kit Limpeza LCM Completo</button></br>
+		<button  onclick='supo("regprelcm")' class="botaodiv">Regulador de Pressão</button></br>
+		<button  onclick='supo("ads")' class="botaodiv">ADS Tambor de 5 Litros Unicorn</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>`
+		
+	}else if(aces == "lpa") {
+		mod.innerHTML = 'Acessórios LPA</br>'
+		list.innerHTML = ''
+		divptitulo.innerHTML =`
+		<button  onclick='supo("ass9550")' class="botaodiv">Acessórios 9550</button></br>
+		<button  onclick='supo("garcab")' class="botaodiv">Garantia da Cabeça de Impressão 9550</button></br>
+		<button  onclick='supo("sentido")' class="botaodiv">Mão/Sentido da Impressora 9550</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("")' class="botaodiv">...</button></br>`}
+	else {alert('ERRO!!! este item não existe!')}
     
 }
-function acessotto() {
-    list.innerHTML = ''
-    mod.innerHTML = 'Acessorios TTO<br>'
-    divptitulo.innerHTML = ''  
-    var ler0 = '<a   class="advera" >216054 - KIT DE LIMPEZA CONTENDO 10 BASTOES DE LIMPEZA PRE SATURADOS COM ALCOOL ISOPROPILICO</a><br>'
-    var ler1 = '<a  href="acessorios/suportetto.pdf" class="advera" >Suporte</a><br>'
-    var ler2 = '<a  href="acessorios/encodertto.pdf" class="advera" >Encoder</a><br>'
-    var ler3 = '<a  href="acessorios/borrachatto.pdf" class="advera" >Borrachas</a><br>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3}` 
-    
-}
-function acessolcm() {
-    list.innerHTML = ''
-    mod.innerHTML = 'Acessorios LCM<br>'
-    divptitulo.innerHTML = ''  
-    var ler0 = '<a   class="advera" >WBZ-3100-006 -  Suporte de fixação para piso</a><br>'
-    var ler1 = '<a   class="advera" >WBZ-3100-003 -  Sensor do produto</a><br>'
-    var ler2 = '<a   class="advera" >WBZ-3100-004 -  Cabo do sensor</a><br>'
-    var ler3 = '<a   class="advera" >WBZ-0993-190 -  Suporte p/ sensor optoeletronico xy p/ VJ 2300 e VJ 9550</a><br>'
-    var ler4 = '<a   class="advera" >36481 -  Kit de limpeza da Cabeça de Impressão LCM 2351/2361</a><br>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4}` 
-    
-}
-function acessolpa() {
-    list.innerHTML = ''
-    mod.innerHTML = 'Acessorios LPA<br>'
-    divptitulo.innerHTML = ''  
-    var ler0 = '<a   class="advera" >397270 - SUPORTE HORIZONTAL PARA IMPRESSORA E APLICADORA DE ETIQUETAS MODELO LPA 9550	</a><br>'
-    var ler1 = '<a   class="advera" >397275 - SUPORTE VERTICAL PARA IMPRESSORA E APLICADORA DE ETIQUETAS MODELO LPA 9550	</a><br>'
-    var ler2 = '<a   class="advera" >406553 - apalpador de etiquetas com 10pçs</a><br>'
-    var ler3 = '<a   class="advera" >406553-UN - apalpador de etiquetas</a><br>'
-    var ler4 = '<a   class="advera" >406387 - apalpador direito com braço</a><br>'
-    var ler5 = '<a   class="advera" >406386 - SENSOR DE PRODUTO LPA 9550</a><br>'
-    var ler6 = '<a   class="advera" >216054 - KIT DE LIMPEZA CONTENDO 10 BASTOES DE LIMPEZA PRE SATURADOS COM ALCOOL ISOPROPILICO</a><br>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5} ${ler6}` 
-    
-}
-function acessotij() {
-    list.innerHTML = ''
-    mod.innerHTML = 'Acessorios TIJ<br>'
-    divptitulo.innerHTML = ''  
-    var ler0 = '<a  href="acessorios/accessoriostij.pdf" class="advera" >Acessórios</a><br>'
-    list.innerHTML = `${ler0}` 
-    
-}
-function acessolaser() {
-    list.innerHTML = ''
-    mod.innerHTML = 'Acessorios LASER<br>'
-    divptitulo.innerHTML = ''  
-	var ler0 = '<a   class="advera" >WBZ0042044 - SENSOR REFLEXAO DIFUSA PNP (STANDARD)</a><br>'
-    var ler1 = '<a   class="advera" >WBZ0042035 - REFLETOR BOS-R-1 (espelho)</a><br>'
-    var ler2 = '<a class="advera" >WBZ1024025 - ENCODER LASER: ENCODER 2000 PPR EIXO 6MM SAIDA A  B CABO 4 M</a><br>'
-	var ler3 = '<a calss="advera" >WBZ1024026 - SUPORTE UNIVERSAL DE ENCODER</a><br>'
-	var ler4 = '<a href="acessorios/encoder e suporte.pdf"  class="advera" >Imagem do Encoder/Suporte</a><br>'
-	var ler5 = '<a   class="advera" >WBZ9999008 - Alarme Luminoso e Sonoro (nacional)</a><br>'
-	var ler6 = '<a href="acessorios/Alarme Luminoso Nacional.pdf"  class="advera" >Imagem/BT do Alarme</a><br>'
-	var ler7 = '<a   class="advera" >WBZ0003142 - Caixa Filtro pre extrator</a><br>'
-	var ler8 = '<a href="acessorios/cxpreestrator.PDF"  class="advera" >Imagem/BT da Caixa</a><br>'
-	var ler9 = '<a   class="advera" >AL-SP93444 - Medidor Potencia LASER CO2</a><br>'
-	var ler10 = '<a href="acessorios/MedidorCO2.pdf"  class="advera" >Imagem do Medidor CO2</a><br>'
-	var ler11 = '<a   class="advera" >AL-SP67438 - Medidor Potencia LASER FIBRA / YAG / CO2</a><br>'
-	var ler12 = '<a href="acessorios/MedidorCO2FibraYag.pdf"  class="advera" >Imagem do Medidor CO2</a><br>'
-	var ler13 = '<a   class="advera" >WBZ0003024 - Suporte Padrão Laser</a><br>'
-	var ler14 = '<a href="acessorios/SUPORTE PADRÃO VIDEOJET.PDF"  class="advera" >Suporte Padrão Laser</a><br>'
-    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5} ${ler6} ${ler7} ${ler8} ${ler9} ${ler10} ${ler11}
-	${ler12} ${ler13} ${ler14}` 
-    
+function supo(tipo) {
+    var supor = tipo
+	let pdf = `
+	<style>
+		.tam {
+			height:480px;
+			width: 950px;
+		}
+	</style>`
+	if(supor == "cij") {
+		mod.innerHTML = 'Suporte CIJ<br>'
+		divptitulo.innerHTML = ''  
+		list.innerHTML = pdf+`<iframe src="acessorios/suportecij.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "enc1") {
+		mod.innerHTML = 'Encoderes'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/encodergeral.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "tto") {
+		mod.innerHTML = 'Suporte TTO'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/suportetto.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "laser") {
+		mod.innerHTML = 'Suporte Laser</br>'
+		divptitulo.innerHTML ='WBZ0003024 - SUPORTE LASER COM AJUSTE X/Y'
+		list.innerHTML = pdf+`<iframe src="acessorios/suportelaser.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "lcm") {
+		mod.innerHTML = 'Suporte LCM 2300</br>'
+		divptitulo.innerHTML ='WBZ3100006 - SUPORTE Perfil LCM P/PISO'
+		list.innerHTML = pdf+`<iframe src="acessorios/suportelcm.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "lcm2120") {
+		mod.innerHTML = 'Suporte LCM</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/suporte2120.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "uni") {
+		mod.innerHTML = 'Suporte Unicorn</br>'
+		divptitulo.innerHTML ='RP21506 - SUPORTE METALICO UNICORN'
+		list.innerHTML = pdf+`<iframe src="acessorios/suporteunicorm.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "resfri") {
+		mod.innerHTML = 'Resfriador</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/resfriadorCooler.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "mesaperf") {
+		mod.innerHTML = 'Mesa CIJ perfil</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/mesaperfil.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "capaprot") {
+		mod.innerHTML = 'Capa de proteção cabeçote CIJ</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/capaprotecaovj1000.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "umbi") {
+		mod.innerHTML = 'Umbilicais VJ1000</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/umbilicaisVJ1000.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "umbis") {
+		mod.innerHTML = 'Umbilicais Simplicity</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/umbilicalsimplicity.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "reg") {
+		mod.innerHTML = 'Regulador de Pressão 6210/DF+/6320/6420</br>'
+		divptitulo.innerHTML ='cod.: 215977 - REGULADOR  DE AR  TTO DATAFLEX'
+		list.innerHTML = pdf+`<iframe src="acessorios/reguladorTTO.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "mao") {
+		mod.innerHTML = 'Sentido(mão) da impressora TTO</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/mao_tto.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "velo") {
+		mod.innerHTML = 'Velocidades Maximas TTO</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/velocidadestto.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "hand") {
+		mod.innerHTML = 'Handheld</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/Handheld.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "medidorpotpq") {
+		mod.innerHTML = 'Medidor de potência Basico</br>'
+		divptitulo.innerHTML ='Codigo: AL-SP93444 - MEDIDOR POTENCIA  PARA IMPRESSORA LASER CO2'
+		list.innerHTML = pdf+`<iframe src="acessorios/medpotpqCO2.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "medidorpotyag") {
+		mod.innerHTML = 'Medidor de potência Fibra/CO2/YAG</br>'
+		divptitulo.innerHTML ='Codigo: AL-SP67438 - MEDIDOR POTENCIA  PARA IMPRESSORA LASER Fibra/CO2/YAG'
+		list.innerHTML = pdf+`<iframe src="acessorios/medpotyfibrayag.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "cxfiltro") {
+		mod.innerHTML = 'Caixa Nacional Pre-Filtro para Extrator</br>'
+		divptitulo.innerHTML ='Codigo: WBZ0003142 - Caixa Pre Filtro com 3 filtros de tela metalica para extrator de fumos'
+		list.innerHTML = pdf+`<iframe src="acessorios/cxprefiltroestrator.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "kitlimp") {
+		mod.innerHTML = 'Kit Limpeza LCM Completo</br>'
+		divptitulo.innerHTML ='Codigo: 36481 - KIT DE LIMPEZA LCM'
+		list.innerHTML = pdf+`<iframe src="acessorios/kitLimpezaLCM.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "regprelcm") {
+		mod.innerHTML = 'Regulador de Pressão LCM</br>'
+		divptitulo.innerHTML ='Codigo: 403401 - REGULADOR DE PRESSAO DE AR LCM 2300'
+		list.innerHTML = pdf+`<iframe src="acessorios/reguladordearlcm.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "ads") {
+		mod.innerHTML = 'ADS - Tambor de 5 Litros Unicorn</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/ADSParts.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "ass9550") {
+		mod.innerHTML = 'Acessórios 9550</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/acessorios9550.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "garcab") {
+		mod.innerHTML = 'Garantia da Cabeça de impressão 9550</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/garantiacab9550.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "sentido") {
+		mod.innerHTML = 'Mão/Sentido da Impressora 9550</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/sentido9550.pdf" class="tam">ola mundo</iframe>`
+	}else {alert('ERRO!!! este item não existe!')}
 }
