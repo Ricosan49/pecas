@@ -18,10 +18,11 @@ body {
 	text-align: center;
 }
 .navbotao {
+	position:absolute;
+	margin-top: 50px;
 	display: block;
 }
 .botaoprinc {
-	margin-top: 50px;
 	text-align: center;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
@@ -53,7 +54,7 @@ body {
 	position: absolute;
 	text-align: center;
 	margin-left: 200px;
-	margin-top: -325px;
+	margin-top: 67px;
 	width: 150px;
 	height: auto;
 	background-color: white;
@@ -81,7 +82,7 @@ body {
 .listas {
 	position: absolute;
 	margin-left: 360px;
-	margin-top: -330px;
+	margin-top: 65px;
 	text-align: center;
 	font: normal 15pt Arial;
 	width: 980px;
