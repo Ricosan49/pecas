@@ -7,19 +7,21 @@ body {
 }
 .logoverauto {
 	position: absolute;
-	margin: 5px 540px 0px;
+	margin: 5px 690px 0px;
 	border-radius: 10px;
 }
 .titulo {
 	font: normal 15pt Arial;
 	font-size: 35px;
 	border-bottom-color: black;
+	margin-top: -55px;
 	text-align: center;
 }
 .navbotao {
 	display: block;
 }
 .botaoprinc {
+	margin-top: 50px;
 	text-align: center;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
@@ -79,7 +81,7 @@ body {
 .listas {
 	position: absolute;
 	margin-left: 360px;
-	margin-top: -325px;
+	margin-top: -330px;
 	text-align: center;
 	font: normal 15pt Arial;
 	width: 980px;
