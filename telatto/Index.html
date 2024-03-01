@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela principal TTO</title>
+</head>
+<body>
+    <div class="main">
+		<input type="button" value="" onclick="home()" class="btninicio" style="background-image:url(./icones/btninicio.png)"/></input></br>
+		<input type="button" value="" onclick="ferramentas()" class="btnferra" style="background-image:url(./icones/btnferramenta.png)"/></input></br>
+        <div id="divmain" class="divdesl">
+            <a id="btndes" class="btndesl">DESCONECTADO</a>
+        </div>
+        <div id="senha" class="divinicio">
+            <a id='inicio'  class="ainicio">Inicío</a>
+			<a id="pdatahora" class="ahora">ERR: sem script</a>
+		</div>
+        <div id="msgg" class="corpoinf">
+            <div id="msg" class="divmsg"></div>
+            <div id="cont" class="divcont"></div>
+            <div id="tinta" class="divtinta"></div>
+            
+        </div>
+        <div id="btn" class="divbtns">
+			<input type="button" value="" onclick="" class="btns" style="background-image:url(./icones/btnvermelho.png)"/></input></br>
+            <input type="button" value="" onclick="" class="btns" style="background-image:url(./icones/btnverde.png)"/></input></br>
+            <input type="button" value="" onclick="" class="btns" style="background-image:url(./icones/btnimprimir.png)"/></input></br>
+            <input type="button" value="" onclick="inicioajustes()" class="btns" style="background-image:url(./icones/btnregistros.png)" href=""/></input></br>
+        </div>
+        <div id="principal" class="divprincipal">
+			<input type="button" value="" onclick="selmsg()" class="btnmsg" style="background-image:url(./icones/btnMSG.png)"/></input></br>
+			<input type="button" value="TESTE" onclick="conteudomsg()" class="btnmsgvisao" /></input></br>
+			<input type="button" value="" onclick="desempenho()" class="btncont" style="background-image:url(./icones/btncontadores.png)"/></input></br>
+			<input type="button" value="" onclick="ribbon()" class="btntinta" style="background-image:url(./icones/btnindicadorfita.png)"/></input></br>
+		</div>
+    </div>
+    <script src="./js/script1.js"></script>
+	<script src="./js/inicio.js"></script>
+	<script src="./js/voltar.js"></script>
+	<script src="./js/diagnosticos.js"></script>
+	<script src="./js/ajustes.js"></script>
+	<script src="./js/basedados.js"></script>
+	<script src="./js/teclado.js"></script>
+	<script src="./js/teclaajcontrol.js"></script>
+</body>
+</html>
