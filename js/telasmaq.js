@@ -18,7 +18,7 @@ function abrir(tel) {
 	if (telas == "1040") {
 		window.open('tela1040/telaprincipal.html')
 	}else if (telas == "tto") {
-		window.open('telatto/indextto.html')
+		window.open('telatto/index.html')
 	}else if(telas == "tes") {
 		list.innerHTML(windows.open('telatto/indextto.html'))
 	}else {alert('ERRO!!! este item não existe')}
