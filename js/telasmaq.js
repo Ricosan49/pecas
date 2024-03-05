@@ -9,7 +9,7 @@ function telamaq() {
     mod.innerHTML = ''
     divptitulo.innerHTML = 'Telas de Maquinas</br>'
 	var acesso1 = `<button  onclick='abrir("1040")' class="botaodiv">Tela 1040</button></br>`
-	var acesso2 = `<button class="botaodiv"><a href="/telatto/indextto.html">teste</a></button></br>`
+	var acesso2 = `<button class="botaodiv"><a href=".telatto/indextto.html">teste</a></button></br>`
 	var acesso3 = `<button  onclick='abrir("tes")' class="botaodiv">teste</button></br>`
 	list.innerHTML = `<p class="adivera"></p>${acesso1} ${acesso2} ${acesso3}`
 }
