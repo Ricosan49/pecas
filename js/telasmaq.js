@@ -20,6 +20,6 @@ function abrir(tel) {
 	}else if (telas == "tto") {
 		window.open("telatto/index.html")
 	}else if(telas == "tes") {
-		list.innerHTML(windows.open("telatto/indextto.html"))
+		windows.open("https://www.videojet.com")
 	}else {alert('ERRO!!! este item não existe')}
 }
