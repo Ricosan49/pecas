@@ -18,7 +18,7 @@ function abrir(tel) {
 	if (telas == "1040") {
 		window.open('tela1040/telaprincipal.html')
 	}else if (telas == "tto") {
-		window.open("https://github.com/Ricosan49/pecas/blob/main/telatto/IndexTTO.html")
+		window.open("telatto/IndexTTO.html")
 	}else if(telas == "tes") {
 		windows.location("https://www.videojet.com")
 	}else {alert('ERRO!!! este item não existe')}
