@@ -18,8 +18,8 @@ function abrir(tel) {
 	if (telas == "1040") {
 		window.open('tela1040/telaprincipal.html')
 	}else if (telas == "tto") {
-		window.open("telatto/index.html")
+		window.open("telatto/index.html","_self")
 	}else if(telas == "tes") {
-		windows.open("https://www.videojet.com")
+		windows.location("https://www.videojet.com")
 	}else {alert('ERRO!!! este item não existe')}
 }
