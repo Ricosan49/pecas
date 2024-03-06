@@ -18,7 +18,12 @@ function abrir(tel) {
 	if (telas == "1040") {
 		window.open('tela1040/telaprincipal.html')
 	}else if (telas == "tto") {
-		window.open("telatto/IndexTTO.html")
+		divres.innerHTML = ''
+		list.innerHTML = ''
+		mod.innerHTML = 'TELA TTO'
+		divptitulo.innerHTML = ''
+		var tto = "telatto/indextto.html"
+		list.innerHTML = tela+`<iframe src="telatto/indextto.html" class="tam">ola mundo</iframe>`
 	}else if(telas == "tes") {
 		windows.location("https://www.videojet.com")
 	}else {alert('ERRO!!! este item não existe')}
