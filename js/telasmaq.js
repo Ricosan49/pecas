@@ -15,6 +15,13 @@ function telamaq() {
 }
 function abrir(tel) {
 	var telas = tel
+	let tela = `
+	<style>
+		.tam {
+			height:480px;
+			width: 950px;
+		}
+	</style>`
 	if (telas == "1040") {
 		window.open('tela1040/telaprincipal.html')
 	}else if (telas == "tto") {
@@ -22,7 +29,6 @@ function abrir(tel) {
 		list.innerHTML = ''
 		mod.innerHTML = 'TELA TTO'
 		divptitulo.innerHTML = ''
-		var tto = "telatto/indextto.html"
 		list.innerHTML = tela+`<iframe src="telatto/indextto.html" class="tam">ola mundo</iframe>`
 	}else if(telas == "tes") {
 		windows.location("https://www.videojet.com")
