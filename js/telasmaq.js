@@ -10,7 +10,7 @@ function telamaq() {
     divptitulo.innerHTML = 'Telas de Maquinas</br>'
 	var acesso1 = `<button  onclick='abrir("1040")' class="botaodiv">Tela 1040</button></br>`
 	var acesso2 = `<button  onclick='abrir("tto")'class="botaodiv">Tela TTO</button></br>`
-	var acesso3 = `<button  onclick='abrir("tes")' class="botaodiv">teste</button></br>`
+	var acesso3 = `<button  onclick='abrir("tes")' class="botaodiv">teste1</button></br>`
 	list.innerHTML = `<p class="adivera"></p>${acesso1} ${acesso2} ${acesso3}`
 }
 function abrir(tel) {
