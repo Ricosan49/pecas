@@ -31,6 +31,6 @@ function abrir(tel) {
 		divptitulo.innerHTML = ''
 		list.innerHTML = tela+`<iframe src="telatto/index.html" class="tam">ola mundo</iframe>`
 	}else if(telas == "tes") {
-		windows.open("telatto/indextto.html")
+		window.open("telatto/indextto.html")
 	}else {alert('ERRO!!! este item não existe')}
 }
