@@ -23,7 +23,11 @@ function abrir(tel) {
 		}
 	</style>`
 	if (telas == "1040") {
-		window.open('tela1040/telaprincipal.html')
+		divres.innerHTML = ''
+		list.innerHTML = ''
+		mod.innerHTML = 'TELA 1040'
+		divptitulo.innerHTML = ''
+		list.innerHTML = tela+`<iframe src="tela1040/Index.html" class="tam"></iframe>`
 	}else if (telas == "tto") {
 		divres.innerHTML = ''
 		list.innerHTML = ''
