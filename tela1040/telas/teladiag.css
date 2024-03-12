@@ -1,0 +1,259 @@
+body {
+    background-color: #9795956e;
+}
+main {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background-color: #283750;
+    
+}
+.divbtnini {
+    width: 95px;
+    
+}
+
+.btninicio {
+    width: 83px;
+    height: 83px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.divdesl {
+    position: absolute;
+    width: 700px;
+    margin-left: 110px;
+    margin-top: 12px;
+   /*background-color: rgb(107, 91, 91);*/
+}
+.btndesl {
+    width: 585px;
+    height: 82px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.btnferramenta {
+    width: 83px;
+    height: 81px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+ .divsenha {
+     position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+ }
+ .divsenhaA {
+    position:absolute;
+    margin-left: 70px;
+    margin-top: 15px;
+ }
+.btnsenha {
+    position:absolute;
+    margin-left: 30px;
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.divacesssenha {
+    position:absolute;
+    margin-left: 490px;
+    margin-top: 15px;
+}
+
+.diferram {
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 10px;
+}
+
+.iniciojato {
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 10px;
+}
+.divini_p {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnjatoini_p {
+    position: absolute;
+}
+
+.btnjatoini_inp {
+    height: 70px;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.btntra {
+    width: 118px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(./icones/btntrab.png);
+}
+.editrapido {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/editrapido.png);
+    margin-top: 160px;
+}
+
+.ajustesimples {
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 10px;
+}
+.impress {
+    width: 546px;
+    height: 148px;
+    background-image: url(icones/mensagem1.png);
+    margin-left: 60px;
+}
+
+.divdataA {
+    position: absolute;
+    color: whitesmoke;
+    margin-left: -40px;
+    margin-top: 30px;
+
+}
+.editartrab {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/editartrabalho.png);
+    margin-top: 160px;
+}
+.btnajustevalor {
+    width: 150px;
+    height: 55px;
+    margin-top: 240px;
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+.ajusteposicao {
+    margin-left: 367px;
+}
+.ajustesenha {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/ajustesenha.png);
+    margin-top: 160px;
+}
+
+.editamsg {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 315px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/editormsg.png);
+    margin-top: 160px;
+}
+.editmsgadd {
+    background-image: url(icones/adicionar.png);
+    width: 68px;
+    height: 68px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.editmsgdef {
+    position: absolute;
+    background-image: url(icones/definicao.png);
+    width: 66px;
+    height: 66px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.addcampo {
+    position: absolute;
+    width: 670px;
+    margin-left: 110px;
+    height: 315px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/addcampo.png);
+    margin-top: 160px;
+}
+
+.definicao {
+    position: absolute;
+    width: 670px;
+    margin-left: 110px;
+    height: 315px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/teladefinicao.png);
+    margin-top: 160px;
+}
+
+.gersist {
+    position: absolute;
+    width: 670px;
+    margin-left: 110px;
+    height: 315px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/gerenciadorsist.png);
+    margin-top: 160px;
+}
+.teladiagnosticos {
+    position: absolute;
+    width: 680px;
+    margin-left: 110px;
+    height: 315px;
+    border-radius: 10px;
+    margin-top: 160px;
+    
+}

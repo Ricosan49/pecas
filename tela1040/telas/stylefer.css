@@ -1,0 +1,265 @@
+body {
+    background-color: #9795956e;
+}
+main {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background-color: #283750;
+    
+}
+.divbtnini {
+    position: absolute;
+    width: 95px;
+    margin-top: 0px;
+}
+
+.btninicio {
+    width: 83px;
+    height: 83px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.divdesl {
+    position: absolute;
+    width: 700px;
+    margin-left: 110px;
+    margin-top: 12px;
+   /*background-color: rgb(107, 91, 91);*/
+}
+.btndesl {
+    width: 585px;
+    height: 82px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.btnferramenta {
+    width: 83px;
+    height: 81px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+ .divsenha {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+ }
+ .divsenhaA {
+    position:absolute;
+    margin-left: 70px;
+    margin-top: 15px;
+ }
+.btnsenha {
+    position:absolute;
+    margin-left: 30px;
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.divacesssenha {
+    position:absolute;
+    margin-left: 490px;
+    margin-top: 15px;
+}
+.corpoinf {
+    position: absolute;
+    margin-top: 160px;
+}
+
+.diferram {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 160px;
+}
+
+.iniciojato {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 160px;
+}
+.divini_p {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnjatoini_p {
+    position: absolute;
+}
+
+.btnjatoini_inp {
+    height: 70px;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.btntra {
+    width: 118px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(./icones/btntrab.png);
+}
+.trabalho {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/seltrab.png);
+    margin-top: 160px;
+}
+
+.senha {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    background-image: url(icones/senha.png);
+    margin-top: 160px;
+}
+
+.ajustesimples {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 160px;
+}
+.impress {
+    width: 546px;
+    height: 148px;
+    background-image: url(icones/mensagem1.png);
+    margin-left: 60px;
+}
+.ajustesimplestxt {
+    position: absolute;
+    margin-top: 50px;
+    height: 20px;
+    
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.ajustesimplestxtA {
+    margin-left: 43px;
+}
+.btnajustevalor {
+    width: 70px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+.btnajustes {
+    margin-left: 5px;
+}
+
+.btnajusteoperador {
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: #d3d3d3d8;
+    font-size: 18px;
+}
+
+.btnger {
+    width: 118px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: -150px;
+    border-radius: 10px;
+    background-image: url(./icones/btnger.png);
+}
+
+.btndiag{
+    width: 118px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(./icones/btndiag.png);
+}
+
+.btnlimpcab{
+    width: 118px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(./icones/btnlimpcab.png);
+}
+
+.btndefin{
+    width: 118px;
+    height: 80px;
+    margin-left: 33px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(./icones/btndefin.png);
+}
+.btnacess{
+    width: 118px;
+    height: 80px;
+    margin-left: 33px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(./icones/btnacess.png);
+}
+.btnmanut{
+    position: absolute;
+    width: 118px;
+    height: 80px;
+    margin-left: 33px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #3f6d9a;
+    color: whitesmoke;
+    font-size: 17px;
+}
+.divdataA {
+    position: absolute;
+    color: whitesmoke;
+    margin-left: -40px;
+    margin-top: 30px;
+
+}

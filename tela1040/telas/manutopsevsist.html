@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylemanut.css">
+    <title>Tela Manutenção</title>
+</head>
+<body>
+    <main>
+        
+        <div id="btndeslig" class="divdesl">
+            <input type="button" value="DESLIGAR" class="btndesl"></input>
+            <input type="button" value="  " onclick="ferram()" class="btnferramenta" style="background-image:url(./icones/ferramenta.png)"/></input>
+        </div>
+        <div id="senha" class="divsenha">
+            <input type="button" value="" onclick="voltar()" class="btnsenha" style="background-image:url(./icones/setaret.png)">
+            <a class="divsenhaA">Operação de serviço de sistema</a>
+            <a href = "./senha.html" class="divacesssenha"> Usuário avançado</a>
+            </input>
+        </div >
+            
+        <div class = "diferram">
+            <input type="button" value="Purga do sistema de limpeza" onclick="btnopsist()" class="btnopsist"></br>
+            <input type="button" value="Purga de produção de limpeza" onclick="btnpurgprodsit()" class="btnopsist"></br>
+            <input type="button" value="Purga umbilical" onclick="btnpurgumb()" class="btnopsist"></br>
+            <input type="button" value="Esvaziar sistema de tinta" onclick="btnesvaziar()" class="btnopsist"></br>
+            <input type="button" value="Carregar tinta no sistema" onclick="btncarregartint()" class="btnopsist"></br>
+            <input type="button" value="Ativar p/falha da calha" onclick="btndescalhaon()" class="btnopsist"></br>
+            <input type="button" value="Calibração da viscosidade" onclick="btncalibvisc()" class="btnopsist"></br>
+            <div id="resop" value="ola mundo" class="resop">
+                <p class="resopP" id="txtop">Purga do sistema de limpeza</p>
+                <input type="button" value="Iniciar" class="btnresop" id="btnon" onclick="btndescalhaoff()">
+            </div>
+        </div>
+        <div id="btninicio" class="divbtnini">
+            <input type="button" value="" onclick="inicio()" class="btninicio" style="background-image:url(./icones/inicio0.png)"/></input></br>
+            <input type="button" value="" onclick="iniciarjato()" class="btninicio" style="background-image:url(./icones/jato.png)"/></input></br>
+            <input type="button" value="" onclick="seltrab()" class="btninicio" style="background-image:url(./icones/trab.png)"/></input></br>
+            <input type="button" value="" class="btninicio" style="background-image:url(./icones/print.png)"/></input></br>
+            <input type="button" value="" onclick="ajustesimples()" class="btninicio" style="background-image:url(./icones/ajustar.png)"/></input></br>
+        </div>
+        
+    </main>
+    <script src="scriptferramenta.js"></script>
+    <script src="scriptprincipal.js"></script>
+    <script src="scriptmanut.js"></script>
+</body>
+</html>

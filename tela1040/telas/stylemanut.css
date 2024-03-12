@@ -1,0 +1,248 @@
+body {
+    background-color: #9795956e;
+}
+main {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background-color: #283750;
+    
+}
+.divbtnini {
+    position: absolute;
+    width: 95px;
+    margin-top: 0px;
+}
+
+.btninicio {
+    width: 83px;
+    height: 83px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.divdesl {
+    position: absolute;
+    width: 700px;
+    margin-left: 110px;
+    margin-top: 12px;
+   /*background-color: rgb(107, 91, 91);*/
+}
+.btndesl {
+    width: 585px;
+    height: 82px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.btnferramenta {
+    width: 83px;
+    height: 81px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+ .divsenha {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+ }
+ .divsenhaA {
+    position:absolute;
+    margin-left: 70px;
+    margin-top: 15px;
+ }
+.btnsenha {
+    position:absolute;
+    margin-left: 30px;
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
+}
+.divacesssenha {
+    position:absolute;
+    margin-left: 490px;
+    margin-top: 15px;
+}
+.diferram {
+    position: absolute;
+    width: 678px;
+    margin-left: 110px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 160px;
+}
+.btntra {
+    text-align: left;
+    width: 665px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.btnger {
+    text-align: left;
+    width: 665px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.btndiag{
+    text-align: left;
+    width: 665px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.btnlimpcab{
+    text-align: left;
+    width: 665px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.btndefin{
+    text-align: left;
+    width: 665px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.btnacess{
+    text-align: left;
+    width: 665px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.btnmanut{
+    text-align: left;
+    width: 665px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.divdataA {
+    position: absolute;
+    color: whitesmoke;
+    margin-left: -40px;
+    margin-top: 30px;
+    
+}
+.btnopsist {
+    text-align: left;
+    width: 300px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    font-size: 16px;
+}
+.resop {
+    position: absolute;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: -310px;
+    border-radius: 10px;
+    background-color: #3f6d9a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.resopP {
+    margin-left: 10px;
+}
+.resopPseq {
+    margin-left: 10px;
+    height: 120px;
+    
+}
+.btnresop {
+    text-align: auto;
+    width: 300px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 170px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    
+    font-size: 20px;
+}
+.divmanutparamcab {
+    position: absolute;
+    overflow-y: scroll;
+    width: 330px;
+    margin-left: 0px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #3f6d9a ;
+    margin-top: 5px;
+}
+.btnparamcab {
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+.resopcab {
+    position: absolute;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #3f6d9a;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.btnfunceng {
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #0bca56;
+    font-size: 20px;
+}

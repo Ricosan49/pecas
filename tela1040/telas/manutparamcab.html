@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylemanut.css">
+    <title>Tela Manutenção</title>
+</head>
+<body>
+    <main>
+        
+        <div id="btndeslig" class="divdesl">
+            <input type="button" value="DESLIGAR" class="btndesl"></input>
+            <input type="button" value="  " onclick="ferram()" class="btnferramenta" style="background-image:url(./icones/ferramenta.png)"/></input>
+        </div>
+        <div id="senha" class="divsenha">
+            <input type="button" value="" onclick="voltar()" class="btnsenha" style="background-image:url(./icones/setaret.png)">
+            <a class="divsenhaA">Parametros da cabeça</a>
+            <a href = "./senha.html" class="divacesssenha"> Usuário avançado</a>
+            </input>
+        </div >
+            
+        <div class = "diferram">
+            <div id="botoes" class="divmanutparamcab">
+                <input type="button" value="Ajustar modulação" onclick="btnmodulacao()" class="btnopsist"></br>
+                <input type="button" value="Ajustar valor de carga" onclick="btnvlacarga()" class="btnopsist"></br>
+                <input type="button" value="Ajustar valor de Phase" onclick="btnvlaphase()" class="btnopsist"></br>
+                <input type="button" value="Ajustar phase manual" onclick="btnphasemanu()" class="btnopsist"></br>
+                <input type="button" value="Ativar Phase manual" onclick="btnatvphasemanu()" class="btnopsist"></br>
+                <input type="button" value="Auto modulação" onclick="btnautomodulacao()" class="btnopsist"></br>
+                <input type="button" value="Tipo modulo impressor" onclick="btnmoduloimp()" class="btnopsist"></br>
+                <input type="button" value="Frequencia da gota" onclick="btnquebragota()" class="btnopsist"></br>
+                <input type="button" value="Offset de carga" onclick="btnofsetcarga()" class="btnopsist"></br>
+                <input type="button" value="Valor de inclinação" onclick="btnvalorincli()" class="btnopsist"></br>
+            </div>
+            <div id="resop" value="ola mundo" class="resopcab">
+                <p class="resopP" id="txtop">Ajustar modulação</p>
+                <input type="text" value="0" class="btnparamcab" id="btnon" onclick="btndesphaseff()">
+            </div>
+        </div>
+        <div id="btninicio" class="divbtnini">
+            <input type="button" value="" onclick="inicio()" class="btninicio" style="background-image:url(./icones/inicio0.png)"/></input></br>
+            <input type="button" value="" onclick="iniciarjato()" class="btninicio" style="background-image:url(./icones/jato.png)"/></input></br>
+            <input type="button" value="" onclick="seltrab()" class="btninicio" style="background-image:url(./icones/trab.png)"/></input></br>
+            <input type="button" value="" class="btninicio" style="background-image:url(./icones/print.png)"/></input></br>
+            <input type="button" value="" onclick="ajustesimples()" class="btninicio" style="background-image:url(./icones/ajustar.png)"/></input></br>
+        </div>
+        
+    </main>
+    <script src="scriptferramenta.js"></script>
+    <script src="scriptprincipal.js"></script>
+    <script src="scriptmanut.js"></script>
+</body>
+</html>

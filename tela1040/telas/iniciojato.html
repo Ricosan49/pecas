@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylefer.css">
+    <title>Tela Inicio Jato</title>
+</head>
+<body>
+    <main>
+       
+        <div id="btndeslig" class="divdesl">
+            <input type="button" value="DESLIGAR" class="btndesl"></input>
+            <input type="button" value="  " onclick="ferram()" class="btnferramenta" style="background-image:url(./icones/ferramenta.png)"/></input>
+        </div>
+        <div id="senha" class="divsenha">
+            <input type="button" value="" onclick="voltar()" class="btnsenha" style="background-image:url(./icones/setaret.png)">
+            <a class="divsenhaA">Iniciar jato de tinta</a>
+            <a href = "./senha.html" class="divacesssenha"> Usuário avançado</a>
+            </input>
+        </div >
+            
+        <div class = "iniciojato">
+            <p id="txtEHT0" class="divini_p">
+                Selecione uma das operações de jato abaixo</br>
+                Recomendamos que a partida limpa seja usada quando o jato foi ligado</br>
+                por mais de uma hora</br>
+                Recomendamos que a partida rapida seja usada quando o jato foi ligado</br>
+                por menos de uma hora
+            </p>
+            <p id="txtEHT1"></p>
+            <p class="btnjatoini_p">
+                <input id="btncalib" type="button" value="Limpo jato inicio" class="btnjatoini_inp">
+                <input type="button" value="Jato inicio rap" class="btnjatoini_inp">
+                <input type="button" value="Cancelar" class="btnjatoini_inp">
+            </p>
+        </div>
+        <div id="btninicio" class="divbtnini">
+            <input type="button" value="" onclick="inicio()" class="btninicio" style="background-image:url(./icones/inicio0.png)"/></input></br>
+            <input type="button" value="" onclick="pararjato()" class="btninicio" style="background-image:url(./icones/pararjato.png)"/></input></br>
+            <input type="button" value="" onclick="seltrab()" class="btninicio" style="background-image:url(./icones/trab.png)"/></input></br>
+            <input type="button" value="" class="btninicio" style="background-image:url(./icones/print.png)"/></input></br>
+            <input type="button" value="" onclick="ajustesimples()" class="btninicio" style="background-image:url(./icones/ajustar.png)"/></input></br>
+        </div>
+        
+    </main>
+    <script src="scriptprincipal.js"></script>
+    <script src="scriptmanut.js"></script>
+</body>
+</html>
