@@ -29,8 +29,8 @@ function abrir(tel) {
 		list.innerHTML = ''
 		mod.innerHTML = 'TELA TTO'
 		divptitulo.innerHTML = ''
-		list.innerHTML = tela+`<iframe src="telatto/index.html" class="tam"></iframe>`
+		list.innerHTML = tela+`<iframe src="telatto/Index.html" class="tam"></iframe>`
 	}else if(telas == "tes") {
-		window.open("telatto/indextto.html")
+		window.open("telatto/Indextto.html")
 	}else {alert('ERRO!!! este item não existe')}
 }
