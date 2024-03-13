@@ -130,6 +130,7 @@ function ace(tipo) {
 		mod.innerHTML = 'Acessorios TTO</br>'
 		list.innerHTML = ''
 		divptitulo.innerHTML =`
+  		<button  onclick='supo("senseL95")' class="botaodiv">Sensor de Produto Padrão LCM</button></br>
 		<button  onclick='supo("kitlimp")' class="botaodiv">Kit Limpeza LCM Completo</button></br>
 		<button  onclick='supo("regprelcm")' class="botaodiv">Regulador de Pressão</button></br>
 		<button  onclick='supo("ads")' class="botaodiv">ADS Tambor de 5 Litros Unicorn</button></br>
@@ -141,6 +142,7 @@ function ace(tipo) {
 		mod.innerHTML = 'Acessórios LPA</br>'
 		list.innerHTML = ''
 		divptitulo.innerHTML =`
+  		<button  onclick='supo("senseL95")' class="botaodiv">Sensor de Produto Pdrão</button></br>
 		<button  onclick='supo("ass9550")' class="botaodiv">Acessórios 9550</button></br>
 		<button  onclick='supo("garcab")' class="botaodiv">Garantia da Cabeça de Impressão 9550</button></br>
 		<button  onclick='supo("sentido")' class="botaodiv">Mão/Sentido da Impressora 9550</button></br>
@@ -239,6 +241,10 @@ function supo(tipo) {
 		mod.innerHTML = 'Kit Limpeza LCM Completo</br>'
 		divptitulo.innerHTML ='Codigo: 36481 - KIT DE LIMPEZA LCM'
 		list.innerHTML = pdf+`<iframe src="acessorios/kitLimpezaLCM.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "senseL95") {
+		mod.innerHTML = 'Sensor Padrão LCM/9550</br>'
+		divptitulo.innerHTML ='Codigo do sensor: WBZ3100003 - SENSOR DE PRODUTO LCM/9550</br>Codigo do cabo: WBZ3100004 - CABO SENSOR PRODUTO LCM/9550'
+		list.innerHTML = pdf+`<iframe src="acessorios/sensorlcm_9550.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "regprelcm") {
 		mod.innerHTML = 'Regulador de Pressão LCM</br>'
 		divptitulo.innerHTML ='Codigo: 403401 - REGULADOR DE PRESSAO DE AR LCM 2300'
