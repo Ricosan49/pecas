@@ -111,7 +111,7 @@ function ace(tipo) {
 		<button  onclick='supo("reg")' class="botaodiv">Regulador de Pressão</button></br>
 		<button  onclick='supo("mao")' class="botaodiv">Mão da TTO</button></br>
 		<button  onclick='supo("velo")' class="botaodiv">Velocidade Maxima TTO</button></br>
-		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("borracha")' class="botaodiv">Borrachas</button></br>
 		<button  onclick='supo("")' class="botaodiv">...</button></br>
 		<button  onclick='supo("")' class="botaodiv">...</button></br>`
 		
@@ -130,11 +130,10 @@ function ace(tipo) {
 		mod.innerHTML = 'Acessorios TTO</br>'
 		list.innerHTML = ''
 		divptitulo.innerHTML =`
-  		<button  onclick='supo("senseL95")' class="botaodiv">Sensor de Produto Padrão LCM</button></br>
+		<button  onclick='supo("senseL95")' class="botaodiv">Sensor de Produto Padrão LCM</button></br>
 		<button  onclick='supo("kitlimp")' class="botaodiv">Kit Limpeza LCM Completo</button></br>
 		<button  onclick='supo("regprelcm")' class="botaodiv">Regulador de Pressão</button></br>
 		<button  onclick='supo("ads")' class="botaodiv">ADS Tambor de 5 Litros Unicorn</button></br>
-		<button  onclick='supo("")' class="botaodiv">...</button></br>
 		<button  onclick='supo("")' class="botaodiv">...</button></br>
 		<button  onclick='supo("")' class="botaodiv">...</button></br>`
 		
@@ -142,11 +141,10 @@ function ace(tipo) {
 		mod.innerHTML = 'Acessórios LPA</br>'
 		list.innerHTML = ''
 		divptitulo.innerHTML =`
-  		<button  onclick='supo("senseL95")' class="botaodiv">Sensor de Produto Pdrão</button></br>
+		<button  onclick='supo("senseL95")' class="botaodiv">Sensor de Produto Pdrão</button></br>
 		<button  onclick='supo("ass9550")' class="botaodiv">Acessórios 9550</button></br>
 		<button  onclick='supo("garcab")' class="botaodiv">Garantia da Cabeça de Impressão 9550</button></br>
 		<button  onclick='supo("sentido")' class="botaodiv">Mão/Sentido da Impressora 9550</button></br>
-		<button  onclick='supo("")' class="botaodiv">...</button></br>
 		<button  onclick='supo("")' class="botaodiv">...</button></br>
 		<button  onclick='supo("")' class="botaodiv">...</button></br>`}
 	else {alert('ERRO!!! este item não existe!')}
@@ -221,6 +219,10 @@ function supo(tipo) {
 		mod.innerHTML = 'Velocidades Maximas TTO</br>'
 		divptitulo.innerHTML =''
 		list.innerHTML = pdf+`<iframe src="acessorios/velocidadestto.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "borracha") {
+		mod.innerHTML = 'Borrachas do PAD TTO</br>'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="acessorios/borrachatto.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "hand") {
 		mod.innerHTML = 'Handheld</br>'
 		divptitulo.innerHTML =''
