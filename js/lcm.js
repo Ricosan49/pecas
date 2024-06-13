@@ -18,9 +18,10 @@ function reslcm() {
     var c2340 = '<button onclick="lcma(2340)" class="botaodiv">2340</button>'
     var c2351 = '<button onclick="lcma(2351)" class="botaodiv">2351</button>'
     var c2361 = '<button onclick="lcma(2361)" class="botaodiv">2361</button>'
+	var c2380 = '<button onclick="lcma(2380)" class="botaodiv">2380</button>'
     var cunicorn1 = '<button onclick="lcma(1)" class="botaodiv">Unicorn 1</button>'
     var cunicorn2 = '<button onclick="lcma(2)" class="botaodiv">Unicorn 2</button>'
-    divres.innerHTML = `<p class="adivera">Peças LCM</p>${c2120} ${c2340} ${c2351} ${c2361} ${cunicorn1} ${cunicorn2}`
+    divres.innerHTML = `<p class="adivera">Peças LCM</p>${c2120} ${c2340} ${c2351} ${c2361} ${c2380} ${cunicorn1} ${cunicorn2}`
     
 }
 function lcma(tipo) {
@@ -47,6 +48,10 @@ function lcma(tipo) {
 		mod.innerHTML = '2361<br>'
 		divptitulo.innerHTML = '404428 - Kit de Filtros manutencao Preventiva<br>36466 - KIT DE FILTROS DO COLETOR DE TINTA DA IMPRESSORA LCM 2351/2361<br>36486 - MODULO DE IMPRESSAO LCM V2361<br>'  
 		list.innerHTML = pdf+`<iframe src="lcm/234023512361.pdf" class="tam">ola mundo</iframe>`
+	}else if(conecta == "2380") {
+		mod.innerHTML = '2380<br>'
+		divptitulo.innerHTML = '383753 - Kit de Filtros manutencao Preventiva(ver tabela 32 manual parts)<br>36466 - KIT DE FILTROS DO COLETOR DE TINTA DA IMPRESSORA LCM 2351/2361<br>383768 - MODULO DE IMPRESSAO LCM V2380<br>'  
+		list.innerHTML = pdf+`<iframe src="lcm/2380IPB.pdf" class="tam">ola mundo</iframe>`
 	}else if(conecta == "1") {
 		mod.innerHTML = 'Unicorn 1<br>'
 		divptitulo.innerHTML = 'RP15895 - BLOCO DE NOZZLES 10 mm UNICORN LCM (PADRÃO)<br>RP27339 - VALVULA DE TINTA 600 HZ - 12V - UNICORN LCM<br>'
