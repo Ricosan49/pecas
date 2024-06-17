@@ -112,7 +112,7 @@ function ace(tipo) {
 		<button  onclick='supo("mao")' class="botaodiv">Mão da TTO</button></br>
 		<button  onclick='supo("velo")' class="botaodiv">Velocidade Maxima TTO</button></br>
 		<button  onclick='supo("borracha")' class="botaodiv">Borrachas</button></br>
-		<button  onclick='supo("")' class="botaodiv">...</button></br>
+		<button  onclick='supo("limpeza")' class="botaodiv">Manutenção preventiva TTO</button></br>
 		<button  onclick='supo("")' class="botaodiv">...</button></br>`
 		
 	}else if(aces == "laser") {
@@ -223,6 +223,10 @@ function supo(tipo) {
 		mod.innerHTML = 'Borrachas do PAD TTO</br>'
 		divptitulo.innerHTML =''
 		list.innerHTML = pdf+`<iframe src="acessorios/borrachatto.pdf" class="tam">ola mundo</iframe>`
+	}else if(supor == "limpeza") {
+		mod.innerHTML = 'Manutenção Preventiva TTO</br>'
+		divptitulo.innerHTML ='216054 - Kit Limpeza da cabeça TTO'
+		list.innerHTML = pdf+`<iframe src="acessorios/limpezatto.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "hand") {
 		mod.innerHTML = 'Handheld</br>'
 		divptitulo.innerHTML =''
