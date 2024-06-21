@@ -5,8 +5,8 @@ var list = window.document.getElementById('lista')
 function iniclaser() {
     divres.innerHTML = ''
     list.innerHTML = ''
-    mod.innerHTML = ''
-    divptitulo.innerHTML = ''
+    mod.innerHTML = 'Codigo da Nova Placa Chameleon</br>'
+    divptitulo.innerHTML = 'AL-SP80518 - PLACA CHAMELEON MULTINUCLEOS MCIP ARTIX PARA IMPRESSORA LASER CO2'
     var laser = '<button name="cij" onclick="reslaser()" class="botaodiv">Peças</button>'
     var tubos = `<button name="cij" onclick='lasers("tubo")' class="botaodiv">Tubos</button>`
     var cextrator = '<button name="cij" onclick="extratores()" class="botaodiv">Extratores</button>'
