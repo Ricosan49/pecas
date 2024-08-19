@@ -226,7 +226,7 @@ function supo(tipo) {
 	}else if(supor == "limpeza") {
 		mod.innerHTML = 'Manutenção Preventiva TTO</br>'
 		divptitulo.innerHTML ='216054 - Kit Limpeza da cabeça TTO'
-		list.innerHTML = pdf+`<iframe src="acessorios/limpezatto.pdf" class="tam">ola mundo</iframe>`
+		list.innerHTML = pdf+`<iframe src="acessorios/limpezaTTO.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "hand") {
 		mod.innerHTML = 'Handheld</br>'
 		divptitulo.innerHTML =''
