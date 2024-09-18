@@ -10,6 +10,7 @@ SISTEMA DE TINTA
 395639	Conector Y para tinta del Umbilical
 SP399246	Cartucho Especial p/ Esvaziar Nucleo VJ 1510
 399336	Kit de Gaxetas e O'rings VJ1510
+382204  CONEXAO EM FORMATO Y EM PLASTICO E METAL A CIJ 1610DH
 
 CABEÇOTE	
 399422	Modulo de Impressao canhão 60 micron
