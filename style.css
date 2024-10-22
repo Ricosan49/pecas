@@ -7,6 +7,10 @@ body, html {
 .logoA {
 	border: black;
 }
+.logovj2 {
+	position: absolute;
+	margin: -20px 170px 0px;
+}
 .logoverauto {
 	position: absolute;
 	margin: 5px 690px 0px;
