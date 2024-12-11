@@ -37,6 +37,7 @@ body, html {
 	text-transform: uppercase;
 }
 .botaoprinc li{
+	color: white;
 	background-color: #5858FA;
 	padding: 10px;
 	margin: 2px;
