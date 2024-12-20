@@ -37,8 +37,8 @@ body, html {
 	text-transform: uppercase;
 }
 .botaoprinc li{
-	color:white;
-	background-color: #5858FA;
+	color:#00008B;
+	background-color: #00BFFF;
 	padding: 10px;
 	margin: 2px;
 	-webkit-transition: background-color 1s;
@@ -49,13 +49,14 @@ body, html {
 	background-color: #543af6;
 }
 .botaodiv {
+	color: #00008B;
 	border-color: #D8D8D8;
 	text-align: center;
 	border-radius: 3px;
 	font: normal 15pt Arial;
 	font-size: 15px;
 	width: 150px;
-	background-color:#87CEEB;
+	background-color:#00BFFF;
 }
 .diver {
 	position: absolute;
