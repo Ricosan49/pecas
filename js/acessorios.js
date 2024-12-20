@@ -161,7 +161,7 @@ function supo(tipo) {
 	</style>`
 	if(supor == "cij") {
 		mod.innerHTML = 'Suporte CIJ<br>'
-		divptitulo.innerHTML = 'WBZ0108168 - Suporte padrão CIJ'  
+		divptitulo.innerHTML = 'cod.: WBZ0108168 - SUPORTE COMPLETO IMPRESSORA CIJ'  
 		list.innerHTML = pdf+`<iframe src="acessorios/suportecij.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "enc1") {
 		mod.innerHTML = 'Encoderes'
