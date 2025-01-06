@@ -103,9 +103,10 @@ function ccpcb() {
     var ler1 = `<button  class="botaodiv" onclick="pcb('pcb1')">PCB 1 - SP500095</button><br>`
     var ler2 = `<button  class="botaodiv" onclick="pcb('pcb2')">PCB 2 - SP500097</button><br>`
     var ler3 = `<button  class="botaodiv" onclick="pcb('pcb3')">PCB 3 - SP500096</button><br>`
-    var ler4 = `<button  class="botaodiv" onclick="pcb('pcb5')">PCB 5(somente 1710)</button><br>`
-	var ler5 = `<button  class="botaodiv" onclick="pcb('sensor')">Configurar NPN/PNP</button><br>`
-    divres.innerHTML = `<p class="adivera">PCB's</p>${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}` 
+	var ler4 = `<button  class="botaodiv" onclick="pcb('pcb4')">PCB 4 - 399475</button><br>`
+    var ler5 = `<button  class="botaodiv" onclick="pcb('pcb5')">PCB 5(somente 1710)</button><br>`
+	var ler6 = `<button  class="botaodiv" onclick="pcb('sensor')">Configurar NPN/PNP</button><br>`
+    divres.innerHTML = `<p class="adivera">PCB's</p>${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5} ${ler6}` 
 }
 function pcb(tip) {
 	var modelo = tip
@@ -117,6 +118,8 @@ function pcb(tip) {
 			list.innerHTML = `<a>PCB 2 - SP500097</a><br><img src="conexoes/PCB2.png" class="listpcb">`
 		}else if(modelo == "pcb3") {
 			list.innerHTML = `<a>PCB 3 - SP500096</a><br><img src="conexoes/PCB3.png" class="listpcb">`
+		}else if(modelo == "pcb4") {
+			list.innerHTML = `<a>PCB 4 - 399475</a><br><img src="conexoes/PCB4.png" class="listpcb">`
 		}else if(modelo == "pcb5") {
 			list.innerHTML = `<a>PCB 5 - SP395605</a><br><img src="conexoes/PCB5.png" class="listpcb">`
 		}else if(modelo == "sensor") {
