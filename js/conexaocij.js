@@ -119,7 +119,7 @@ function pcb(tip) {
 		}else if(modelo == "pcb3") {
 			list.innerHTML = `<a>PCB 3 - SP500096</a><br><img src="conexoes/PCB3.png" class="listpcb">`
 		}else if(modelo == "pcb4") {
-			list.innerHTML = `<a>PCB 4 - 399475</a><br><img src="conexoes/pcb4.png" class="listpcb">`
+			list.innerHTML = `<a>PCB 4 - 399475</a><br><img src="conexoes/PCB4.png" class="listpcb">`
 		}else if(modelo == "pcb5") {
 			list.innerHTML = `<a>PCB 5 - SP395605</a><br><img src="conexoes/PCB5.png" class="listpcb">`
 		}else if(modelo == "sensor") {
