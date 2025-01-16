@@ -38,9 +38,12 @@ function rescij() {
     var c1710 = `<button name="cij" onclick="pecas('1710')" class="botaodiv">1710</button>`
     var c1860 = `<button name="cij" onclick="pecas('1860')" class="botaodiv">1860</button>`
     var c1880 = `<button name="cij" onclick="pecas('1880')" class="botaodiv">1880</button>`
+	var c1880p = `<button name="cij" onclick="pecas('1880p')" class="botaodiv">1880plus</button>`
+	var c1880u = `<button name="cij" onclick="pecas('1880u')" class="botaodiv">1880uhs</button>`
+	var c1880h = `<button name="cij" onclick="pecas('1880h')" class="botaodiv">1880hr</button>`
     divres.innerHTML = `<p class="adivera">Peças CIJ</p>${c1040} ${c1210} ${c1220} ${c1240} ${c1280} ${c1510} ${c1520} 
     ${c1530} ${c1560} ${c1580} ${c1580P} ${c1580C} ${c1610} ${c1620} ${c1000fg} ${c1610dh} ${c1620hr} ${c1620uhs} ${c1650} ${c1650uhs} ${c1710}
-    ${c1860} ${c1880}`
+    ${c1860} ${c1880} ${c1880p} ${c1880u} ${c1880h}`
     
 }
 function nucleo() {
@@ -214,6 +217,21 @@ function pecas(pc) {
 		mod.innerHTML = '1880<br>'
 		divptitulo.innerHTML = '611554	Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>(Substituir a 12 meses de trabalho - mandatorio)'  
 		var ler = '<a href=""><embed src="./mq/1880.txt" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1880p") {
+		mod.innerHTML = '1880 plus<br>'
+		divptitulo.innerHTML = '611554	Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>(Substituir a 12 meses de trabalho - mandatorio)'  
+		var ler = '<a href=""><embed src="./mq/1880p.txt" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1880u") {
+		mod.innerHTML = '1880 uhs<br>'
+		divptitulo.innerHTML = '611554	Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>(Substituir a 12 meses de trabalho - mandatorio)'  
+		var ler = '<a href=""><embed src="./mq/1880u.txt" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1880h") {
+		mod.innerHTML = '1880 hr<br>'
+		divptitulo.innerHTML = '611554	Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>(Substituir a 12 meses de trabalho - mandatorio)'  
+		var ler = '<a href=""><embed src="./mq/1880h.txt" class="list"></a>'
 		list.innerHTML = ler
 	}else {window.alert('ERRO: Lista não encontrada')}
 }
