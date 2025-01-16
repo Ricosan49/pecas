@@ -1,0 +1,50 @@
+Código	Descrição Português
+FILTROS	
+611554	Modulo de Serviço 1-  c/ Filtro de Tinta e Damper
+611613	Conjunto do Filtro de Ar 1880
+611221	Kit do Elemento do Filtro de Ar
+SISTEMA DE TINTA	
+239415	Filtro de Flush 1880
+611167	Filtro de Solvente/Recirculação 1880
+611168	Filtro Final de Tinta
+611686	Módulo de Controle de Solvente 1580, 1880
+611835	Sistema de Tinta completo 1880+ / UHS / HR
+611556	Tampa Sistema de Tinta c/ Ventilador VJ1880
+611566	Filtro Pre-Venturi 200u 1880
+611207	Cartucho Especial 1 litro p/ drenar Sistema
+611587	Suporte da Porta do Compartimento de Tinta VJ 1880
+611396	Bomba de Ar Positivo 1580, 1880
+613617	Bomba de Canaleta 1580, 1880
+611246	Bomba de Tinta VJ 1580, 1880
+613636	Valvula Solenóide do Viscosímetro 1580, 1880
+611152	Camara VMS e Sensor de Temperatura de Tinta
+613585	Kit de Cabos do Sistema de Tinta
+611611	Ventilador da Placa IMB 1880
+	
+CABEÇOTE	
+611588	Capa do cabeçote standard VJ1880
+611143	Capa do Cabeçote Clean Flow VJ 1860, 1880
+223277	Parafuso do Lid do Cabecote
+611824	Modulo Impressão Canhão 50 micra VJ 1880 UHS
+611147	Modulo de Válvulas / Aquecedor VJ 1860, 1880
+611578	Umbilical e Chassis Cabeçote 3 M VJ1880
+611224	Umbilical e Chassis Cabeçote 6 M VJ1880
+	
+PLACAS ELETRÔNICAS	
+611821	Placa Principal MCB VJ1880+ / UHS / HR
+611564	Fonte de Alimentação PSU 24V VJ 1880
+611565	Botão Liga/Desliga com Cabeação VJ 1880
+611826	Placa IMB do Sistema de Tinta VJ1880+ / UHS / HR
+611572	Placa Disparo Imp. PEC2 VJ 1880
+611570	Placa de Expansão E/S VJ 1880
+611590	Ventilador do Compartimento Eletrônico VJ 1880
+611611	Ventilador da Placa IMB VJ 1880
+611576	Conjunto do Display LCD 1880
+611585	Suporte da Porta do Painel Frontal VJ 1880
+613584	Kit de Cabos do Display VJ 1880
+611565	Kit de Cabos PSU VJ1880
+
+	
+
+
+
