@@ -16,7 +16,8 @@ function reslpa() {
     var mp3400 = '<button onclick="pp3400()" class="botaodiv">P3400</button>'
     var m210 = '<button onclick="p210()" class="botaodiv">210</button>'
     var mketan = '<button onclick="pketan()" class="botaodiv">KETAN</button>'
-    divres.innerHTML = `<p class="adivera">Peças LPA</p>${m9550} ${mp3400} ${m210} ${mketan}`
+	var mzebra = '<button onclick="pzebra()" class="botaodiv">MODULOS ZEBRA</button>'
+    divres.innerHTML = `<p class="adivera">Peças LPA</p>${m9550} ${mp3400} ${m210} ${mketan} ${mzebra}`
     
 }
 function p9550() {
@@ -47,8 +48,20 @@ function p210() {
     divptitulo.innerHTML = ''  
     var ler0 = `<button onclick= 'lpax("210")' class="botaodiv">Aplicador de etiquetas 210</button>`
     list.innerHTML = `${ler0}`
-    
-}function pketan() {
+
+}
+function pzebra() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Peças ZEBRA<br>'
+    divptitulo.innerHTML = ''  
+    var ler0 = `<button onclick= 'lpax("zt200")' class="botaodiv">ZEBRA ZT200</button><br>`
+	var ler1 = `<button onclick= 'lpax("zt410")' class="botaodiv">ZEBRA<br>ZT410 - ZT420</button><br>`
+	var ler2 = `<button onclick= 'lpax("zt411")' class="botaodiv">ZEBRA<br>ZT411 - ZT421</button><br>`
+	var ler3 = `<button onclick= 'lpax("zt600")' class="botaodiv">ZEBRA ZT600</button><br>`
+	var ler4 = `<button onclick= 'lpax("ze511")' class="botaodiv">ZEBRA<br>ZE511 - ZE521</button><br>`
+    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4}`
+}
+function pketan() {
     list.innerHTML = ''
     mod.innerHTML = 'Peças Ketan<br>'
     divptitulo.innerHTML = ''  
@@ -132,6 +145,26 @@ function lpax(tipo) {
 		mod.innerHTML = 'Conexões K200'
 		divptitulo.innerHTML =''
 		list.innerHTML = pdf+`<iframe src="lpa/k200IO.pdf" class="tam">ola mundo</iframe>`
+	}else if(lpa == "zt200") {
+		mod.innerHTML = 'ZEBRA ZT200'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/zt200.pdf" class="tam">ola mundo</iframe>`
+	}else if(lpa == "zt410") {
+		mod.innerHTML = 'ZEBRA ZT410 - ZT420'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/zt410-zt420.pdf" class="tam">ola mundo</iframe>`
+	}else if(lpa == "zt411") {
+		mod.innerHTML = 'ZEBRA ZT411 - ZT421'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/zt411-zt421.pdf" class="tam">ola mundo</iframe>`
+	}else if(lpa == "zt600") {
+		mod.innerHTML = 'ZEBRA ZT600'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/zt600.pdf" class="tam">ola mundo</iframe>`
+	}else if(lpa == "ze511") {
+		mod.innerHTML = 'ZEBRA ZE511 - ZE521'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/ze511.pdf" class="tam">ola mundo</iframe>`
 	}else {alert('ERRO!!! este item não existe!')}
     
 }
