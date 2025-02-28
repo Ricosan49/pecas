@@ -64,14 +64,14 @@ function c642053() {
     list.innerHTML = ''
     mod.innerHTML = '6420 Cabeça 53mm<br>'
     divptitulo.innerHTML = '215984 - CABECA DE IMPRESSAO 53MM 6420-TTO<br>216037-UN - CORREIA DA CABECA  53MM<br>'  
-    var ler = `<button  class="botaodiv" onclick="modelo('642053')">Peças Ilustradas</button><br>`
+    var ler = `<button  class="botaodiv" onclick="modelo('642053')">Peças Lista</button><br>`
     list.innerHTML = ler
 }
 function c6420107() {
     list.innerHTML = ''
     mod.innerHTML = '6420 Cabeça 107mm<br>'
     divptitulo.innerHTML = '216585 - CABECA DE IMPRESSAO 107MM 6420-TTO<br>216037-UN - CORREIA CABECA DE IMPRESSAO 107MM<br>'  
-    var ler = `<button  class="botaodiv" onclick="modelo('6420107')">Peças Ilustradas</button><br>`
+    var ler = `<button  class="botaodiv" onclick="modelo('6420107')">Peças Lista</button><br>`
     list.innerHTML = ler
 }
 function c6230() {
@@ -164,13 +164,13 @@ function modelo(tto) {
 		mod.innerHTML = '6330 Cabeça 53mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/633053IPB.pdf" class="tam"></iframe>`
 	}else if(ttoo == '653053l') {
-		mod.innerHTML = '6330 Cabeça 53mm<br>'
+		mod.innerHTML = '6530 Cabeça 53mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/653053_107l.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6530107l') {
-		mod.innerHTML = '6330 Cabeça 107mm<br>'
+		mod.innerHTML = '6530 Cabeça 107mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/653053_107l.pdf" class="tam"></iframe>`
 	}else if(ttoo == '6530107i') {
-		mod.innerHTML = '6330 Cabeça 107mm<br>'
+		mod.innerHTML = '6530 Cabeça 107mm<br>'
 		list.innerHTML = pdf+`<iframe src="tto/6530107IPB.pdf" class="tam"></iframe>`
 	}else {alert('ERRO - Este item não existe')}
 }
