@@ -28,19 +28,19 @@ function conexao(tipo) {
 	var conecta = tipo
 	if(conecta == "sensor") {
 		mod.innerHTML = 'Conexões VJ1000/1240/1280/1580/1860/1880<br>'
-		list.innerHTML = `<a>500-0036-578 - Conector DIN 3 pos macho</a><br><img src="conexoes/ligsensorcij.png" class="listpcb">
+		list.innerHTML = `<a>WBZ0108427 - Conector DIN 3 pos macho</a><br><img src="conexoes/ligsensorcij.png" class="listpcb">
 		<img src="conexoes/plugdin.png" class="listpcb">`
 	}else if(conecta == "enco") {
 		mod.innerHTML = 'Conexões VJ1000/1240/1280/1580/1860/1880<br>'
-		list.innerHTML = `<a>500-0036-581 - Conector DIN 4 pos macho</a><br><img src="conexoes/ligencoder.png" class="listpcb">
+		list.innerHTML = `<a>WBZ0108428 - Conector DIN 4 pos macho</a><br><img src="conexoes/ligencoder.png" class="listpcb">
 		<img src="conexoes/plugdin.png" class="listpcb">`
 	}else if(conecta == "alarme") {
 		mod.innerHTML = 'Conexões VJ1000/1240/1280/1580/1860/1880<br>'
-		list.innerHTML = `<a>500-0036-577 - Conector DIN 6 pos macho</a><br><img src="conexoes/ligalarme.png" class="listpcb">
+		list.innerHTML = `<a>WBZ0108430 - Conector DIN 6 pos macho</a></br><a>WBZ0036021 - Conector DIN 6 pos FEMEA</a><br><img src="conexoes/ligalarme.png" class="listpcb">
 		<img src="conexoes/plugdin.png" class="listpcb">`
 	}else if(conecta == "rele") {
 		mod.innerHTML = 'Conexões VJ1000/1240/1280/1580/1860/1880<br>'
-		list.innerHTML = `<a>500-0036-583 - Conector DIN 7 pos macho</a><br>
+		list.innerHTML = `<a>WBZ0108429 - Conector DIN 7 pos macho</a><br>
 		<img src="conexoes/ligrelegg.png" class="listpcb">`
 	}else {alert('ERRO!!! este item não existe!')}
 }
