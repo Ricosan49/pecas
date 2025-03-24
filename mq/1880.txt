@@ -36,7 +36,7 @@ PLACAS ELETRÔNICAS
 611565	Botão Liga/Desliga com Cabeação VJ 1880
 611557	Placa IMB do Sistema de Tinta VJ1880
 611572	Placa Disparo Imp. PEC2 VJ 1880
-611570	Placa de Expansão E/S VJ 1880
+611571	Placa de Expansão E/S VJ 1880
 611590	Ventilador do Compartimento Eletrônico VJ 1880
 611611	Ventilador da Placa IMB VJ 1880
 611585	Suporte da Porta do Painel Frontal VJ 1880
