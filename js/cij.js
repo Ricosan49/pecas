@@ -153,27 +153,27 @@ function pecas(pc) {
 		var ler = '<a href=""><embed src="./mq/1560.txt" class="list"></a>'
 		list.innerHTML = ler
 	}else if(item == "1580") {
-		mod.innerHTML = '1580<br>'
+		mod.innerHTML = `1580<br><button name="1X30" onclick="ipb('1580')" class="botaodiv">Vista explodida 1580</button><br>`
 		divptitulo.innerHTML = '613597 - Modulo de Serviço 1-  c/ Filtro de Tinta e Damper 1580<br>trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio'  
 		var ler = '<a href=""><embed src="./mq/1580.txt" class="list"></a>'
 		list.innerHTML = ler
 	}else if(item == "1580P") {
-		mod.innerHTML = '1580 Plus<br>'
+		mod.innerHTML = `1580 PLUS<br><button name="1X30" onclick="ipb('1580p')" class="botaodiv">Vista explodida 1580 PLUS</button><br>`
 		divptitulo.innerHTML = '613597 - Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio'  
 		var ler = '<a href=""><embed src="./mq/1580p.txt" class="list"></a>'
 		list.innerHTML = ler
 	}else if(item == "1580C") {
-		mod.innerHTML = '1580 C<br>'
+		mod.innerHTML = `1580 C<br><button name="1X30" onclick="ipb('1580c')" class="botaodiv">Vista explodida 1580 C</button><br>`
 		divptitulo.innerHTML = '611685 - Modulo de Serviço 1-  c/ Filtro de Tinta e Damper<br>trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio'  
 		var ler = '<a href=""><embed src="./mq/1580c.txt" class="list"></a>'
 		list.innerHTML = ler
 	}else if(item == "1610") {
-		mod.innerHTML = '1610<br>'
+		mod.innerHTML = `1610<br><button name="1X30" onclick="ipb('1610')" class="botaodiv">Vista explodida 1610</button><br>`
 		divptitulo.innerHTML = '399341 - Nucleo de Tinta sin bomba VJ1610 (12,000 hs)'  
 		var ler = '<a href=""><embed src="./mq/1610.txt" class="list"></a>'
 		list.innerHTML = ler
 	}else if(item == "1620") {
-		mod.innerHTML = '1620<br>'
+		mod.innerHTML = `1620<br><button name="1X30" onclick="ipb('1620')" class="botaodiv">Vista explodida 1620</button><br>`
 		divptitulo.innerHTML = 'SP392169 - Nucleo de Tinta sem bomba VJ1620 (14,000 hs)'  
 		var ler = '<a href=""><embed src="./mq/1620.txt" class="list"></a>'
 		list.innerHTML = ler
@@ -296,6 +296,34 @@ function ipb(pc) {
 		mod.innerHTML = `1560<br>`
 		divptitulo.innerHTML = `397549 - NUCLEO DE TINTA SEM BOMBA MODELO VJ 1560 63 MESES<br>`
 		var ler = '<iframe src="cij/1560.pdf" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1580") {
+		mod.innerHTML = `1580<br>`
+		divptitulo.innerHTML = `613597 - Modulo de Serviço 1- c/ Filtro de Tinta e Damper 1580</br>
+trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio`
+		var ler = '<iframe src="cij/1580.pdf" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1580p") {
+		mod.innerHTML = `1580 PLUS<br>`
+		divptitulo.innerHTML = `613597 - Modulo de Serviço 1- c/ Filtro de Tinta e Damper 1580</br>
+trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio`
+		var ler = '<iframe src="cij/1580p.pdf" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1580c") {
+		mod.innerHTML = `1580 C<br>`
+		divptitulo.innerHTML = `611685 - Modulo de Serviço 1- c/ Filtro de Tinta e Damper</br>
+trocar a cada 5.000 hs ou 12 meses de trabalho - mandatorio`
+		var ler = '<iframe src="cij/1580c.pdf" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1610") {
+		mod.innerHTML = `1610<br>`
+		divptitulo.innerHTML = `399341 - Nucleo de Tinta sin bomba VJ1610 (12,000 hs)`
+		var ler = '<iframe src="cij/IPB1610.pdf" class="list"></a>'
+		list.innerHTML = ler
+	}else if(item == "1620") {
+		mod.innerHTML = `1620<br>`
+		divptitulo.innerHTML = `SP392169 - Nucleo de Tinta sem bomba VJ1620 (14,000 hs)`
+		var ler = '<iframe src="cij/IPB1620.pdf" class="list"></a>'
 		list.innerHTML = ler
 	}else if(item == "1630") {
 		mod.innerHTML = `1630<br>`
