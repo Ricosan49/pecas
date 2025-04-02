@@ -13,11 +13,12 @@ function iniclpa() {
 }
 function reslpa() {
     var m9550 = '<button  onclick="p9550()" class="botaodiv">9550</button>'
+	var m9560 = '<button  onclick="p9560()" class="botaodiv">9560</button>'
     var mp3400 = '<button onclick="pp3400()" class="botaodiv">P3400</button>'
     var m210 = '<button onclick="p210()" class="botaodiv">210</button>'
     var mketan = '<button onclick="pketan()" class="botaodiv">KETAN</button>'
 	var mzebra = '<button onclick="pzebra()" class="botaodiv">MODULOS ZEBRA</button>'
-    divres.innerHTML = `<p class="adivera">Peças LPA</p>${m9550} ${mp3400} ${m210} ${mketan} ${mzebra}`
+    divres.innerHTML = `<p class="adivera">Peças LPA</p>${m9550} ${m9560} ${mp3400} ${m210} ${mketan} ${mzebra}`
     
 }
 function p9550() {
@@ -27,6 +28,19 @@ function p9550() {
     var ler0 = `<button onclick= 'lpax("pc9")' class="botaodiv">Peças 9550</button><br>`
     var ler1 = `<button onclick= 'lpax("pct9")' class="botaodiv">Peças TAMP 300mm</button><br>`
     var ler2 = `<button onclick= 'lpax("list9")' class="botaodiv">Lista peças Sincrona</button><br>`
+    var ler3 = `<button onclick= 'lpax("listtamp")' class="botaodiv">Lista aplicador TAMP</button><br>`
+    var ler4 = `<button onclick= 'lpax("listrcw")' class="botaodiv">Lista aplicador RCW</button><br>`
+    var ler5 = `<button onclick= 'lpax("listfop")' class="botaodiv">Lista aplicador FOP</button>`
+    list.innerHTML = `${ler0} ${ler1} ${ler2} ${ler3} ${ler4} ${ler5}`
+    
+}
+function p9560() {
+    list.innerHTML = ''
+    mod.innerHTML = 'Peças 9560<br>'
+    divptitulo.innerHTML = '406315 - CABEÇA DE IMPRESSÃO 107 mm<br>409143 - CABECA DE IMPRESSAO 160 MM 160W<br>409579 - MANDRIL DE REBOBINADO DO RIBBON USADO - modelo novo mais fino<br>'  
+    var ler0 = `<button onclick= 'lpax("pc60")' class="botaodiv">Peças 9560</button><br>`
+    var ler1 = `<button onclick= 'lpax("pct9")' class="botaodiv">Peças TAMP 300mm</button><br>`
+    var ler2 = `<button onclick= 'lpax("list60")' class="botaodiv">Lista peças Sincrona 9560</button><br>`
     var ler3 = `<button onclick= 'lpax("listtamp")' class="botaodiv">Lista aplicador TAMP</button><br>`
     var ler4 = `<button onclick= 'lpax("listrcw")' class="botaodiv">Lista aplicador RCW</button><br>`
     var ler5 = `<button onclick= 'lpax("listfop")' class="botaodiv">Lista aplicador FOP</button>`
@@ -97,6 +111,14 @@ function lpax(tipo) {
 		mod.innerHTML = 'Lista completa Sincrona'
 		divptitulo.innerHTML =''
 		list.innerHTML = pdf+`<iframe src="lpa/9550sincro.pdf" class="tam">ola mundo</iframe>`
+	}else if(lpa == "pc60") {
+		mod.innerHTML = 'Vista 9560'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/9560.pdf" class="tam">ola mundo</iframe>`
+	}else if(lpa == "list60") {
+		mod.innerHTML = 'Lista completa Sincrona 76mm e 107mm'
+		divptitulo.innerHTML =''
+		list.innerHTML = pdf+`<iframe src="lpa/9560direta76_107.pdf" class="tam">ola mundo</iframe>`
 	}else if(lpa == "listtamp") {
 		mod.innerHTML = 'Lista completa TAMP'
 		divptitulo.innerHTML =''
