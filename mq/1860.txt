@@ -17,7 +17,7 @@ SISTEMA DE TINTA
 611153	Ventilador do Sistema de Tinta VJ1860
 
 CABEÇOTE	
-611146	Modulo Impressao canhão 60 micron VJ 1860
+382423	Modulo Impressao canhão 60 micron VJ 1860(modulo novo branco)
 611147	Modulo de Valvulas / Aquecedor VJ 1860
 611143	Capa metalica do cabecote VJ 1860
 223277	Parafuso do Lid do Cabecote
@@ -37,6 +37,7 @@ PLACAS ELETRONICAS
 611245	Placa de Expansão c/ Conectores de E/S - extras
 611197	Conector Serial RS232, kit completo
 611242	Cartão Micro SD Card da Placa MCB
+
 
 
 
