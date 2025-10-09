@@ -25,7 +25,7 @@ CABEÇOTE
 611588	Capa do cabeçote standard VJ1880
 611143	Capa do Cabeçote Clean Flow VJ 1860, 1880
 223277	Parafuso do Lid do Cabecote
-611825	Modulo Impressão Canhão 40 micra VJ 1880 HR
+382421	Modulo Impressão Canhão 40 micra VJ 1880 HR
 611147	Modulo de Válvulas / Aquecedor VJ 1860, 1880
 611578	Umbilical e Chassis Cabeçote 3 M VJ1880
 611224	Umbilical e Chassis Cabeçote 6 M VJ1880
@@ -46,6 +46,7 @@ PLACAS ELETRÔNICAS
 
 
 	
+
 
 
 
