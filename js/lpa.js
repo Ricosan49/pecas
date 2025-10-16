@@ -24,7 +24,7 @@ function reslpa() {
 function p9550() {
     list.innerHTML = ''
     mod.innerHTML = 'Peças 9550<br>'
-    divptitulo.innerHTML = '406315 - CABEÇA DE IMPRESSÃO 107 mm<br>409143 - CABECA DE IMPRESSAO 160 MM 160W<br>409579 - MANDRIL DE REBOBINADO DO RIBBON USADO - modelo novo mais fino<br>'  
+    divptitulo.innerHTML = '430294 - Placa PCB Nova<br>406315 - CABEÇA DE IMPRESSÃO 107 mm<br>409143 - CABECA DE IMPRESSAO 160 MM 160W<br>409579 - MANDRIL DE REBOBINADO DO RIBBON USADO - modelo novo mais fino<br>'  
     var ler0 = `<button onclick= 'lpax("pc9")' class="botaodiv">Peças 9550</button><br>`
     var ler1 = `<button onclick= 'lpax("pct9")' class="botaodiv">Peças TAMP 300mm</button><br>`
     var ler2 = `<button onclick= 'lpax("list9")' class="botaodiv">Lista peças Sincrona</button><br>`
@@ -37,7 +37,7 @@ function p9550() {
 function p9560() {
     list.innerHTML = ''
     mod.innerHTML = 'Peças 9560<br>'
-    divptitulo.innerHTML = '406315 - CABEÇA DE IMPRESSÃO 107 mm<br>409143 - CABECA DE IMPRESSAO 160 MM 160W<br>409579 - MANDRIL DE REBOBINADO DO RIBBON USADO - modelo novo mais fino<br>'  
+    divptitulo.innerHTML = '430294 - Placa PCB Nova<br>406315 - CABEÇA DE IMPRESSÃO 107 mm<br>409143 - CABECA DE IMPRESSAO 160 MM 160W<br>409579 - MANDRIL DE REBOBINADO DO RIBBON USADO - modelo novo mais fino<br>'  
     var ler0 = `<button onclick= 'lpax("pc60")' class="botaodiv">Peças 9560</button><br>`
     var ler1 = `<button onclick= 'lpax("pct9")' class="botaodiv">Peças TAMP 300mm</button><br>`
     var ler2 = `<button onclick= 'lpax("list60")' class="botaodiv">Lista peças Sincrona 9560</button><br>`
@@ -190,3 +190,4 @@ function lpax(tipo) {
 	}else {alert('ERRO!!! este item não existe!')}
     
 }
+
