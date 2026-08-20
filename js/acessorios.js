@@ -244,8 +244,8 @@ function supo(tipo) {
 		divptitulo.innerHTML ='Codigo: WBZ0003142 - Caixa Pre Filtro com 3 filtros de tela metalica para extrator de fumos'
 		list.innerHTML = pdf+`<iframe src="acessorios/cxprefiltroestrator.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "kitlimp") {
-		mod.innerHTML = 'Kit Limpeza LCM Completo</br>'
-		divptitulo.innerHTML ='Codigo: 36481 - KIT DE LIMPEZA LCM'
+		mod.innerHTML = 'Kit Limpeza LCM</br>'
+		divptitulo.innerHTML ='Codigo: 36481 - KIT DE LIMPEZA LCM COMPLETO</br>402280 - KIT DE LIMPEZA LCM BASICO</br>LOGO ABAIXO CONTEM A DESCRIÇÃO DE CADA UM</br>'
 		list.innerHTML = pdf+`<iframe src="acessorios/kitLimpezaLCM.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "senseL95") {
 		mod.innerHTML = 'Sensor Padrão LCM/9550</br>'
