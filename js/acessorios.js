@@ -253,8 +253,10 @@ function supo(tipo) {
 		list.innerHTML = pdf+`<iframe src="acessorios/sensorlcm_9550.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "regprelcm") {
 		mod.innerHTML = 'Regulador de Pressão LCM</br>'
-		divptitulo.innerHTML ='Codigo: 403401 - REGULADOR DE PRESSAO DE AR LCM 2300'
-		list.innerHTML = pdf+`<iframe src="acessorios/reguladordearlcm.pdf" class="tam">ola mundo</iframe>`
+		divptitulo.innerHTML ='Codigo: 
+			383762 - REGULADOR DE PRESSAO DE AR LCM 2380
+			383752 - Filtro do regulador(383762)'
+		list.innerHTML = pdf+`<iframe src="acessorios/reguladorpress2380.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "ads") {
 		mod.innerHTML = 'ADS - Tambor de 5 Litros Unicorn</br>'
 		divptitulo.innerHTML =''
