@@ -241,7 +241,7 @@ function supo(tipo) {
 		list.innerHTML = pdf+`<iframe src="acessorios/medpotyfibrayag.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "cxfiltro") {
 		mod.innerHTML = 'Caixa Nacional Pre-Filtro para Extrator</br>'
-		divptitulo.innerHTML ='Codigo: WBZ0003142 - Caixa Pre Filtro com 3 filtros de tela metalica para extrator de fumos'
+		divptitulo.innerHTML ='Codigo: WBZ0003142 - Caixa Pre Filtro com 3 filtros de tela metalica para extrator de fumos</br>Codigos dos filtros contidos na caixa:</br>WBZ0003143 - FILTRO COM TELA EM ACO C/ MALHA 40 REF. 52417(PARA CAIXA PRE-FILTRO WBZ0003142)</br>WBZ0003351 - FILTRO COM TELA EM ACO C/ MALHA 60 REF. 52417 (PARA CAIXA PRE-FILTRO WBZ0003142)</br>WBZ0003357 - FILTRO COM TELA EM ACO C/ MALHA 80 REF. 52417 (PARA CAIXA PRE-FILTRO WBZ0003142)'
 		list.innerHTML = pdf+`<iframe src="acessorios/cxprefiltroestrator.pdf" class="tam">ola mundo</iframe>`
 	}else if(supor == "kitlimp") {
 		mod.innerHTML = 'Kit Limpeza LCM</br>'
